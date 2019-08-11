@@ -3104,7 +3104,7 @@
                     e = w();
                 w();
                 var c = [
-                    ["Tip: You can view and edit your keybinds in the options menu.", "Tip: You can play on mobile by just going to arras-unl.glitch.me on your phone!"],
+                    ["Tip: You can view and edit your keybinds in the options menu.", "Tip: You can play on mobile by just going to ivyx-arras.glitch.me on your phone!"],
                     ["Tip: You can have the shield and health bar be separated by going to the options menu.", "Tip: If arras is having a low frame rate, you can try enabling low graphics in the options menu.", "Tip: You can make traps rounded with the classic trap setting in the options menu."
                     ],
                     ["Teaming in FFA or FFA Maze is frowned upon, but when taken to the extremes, you can be punished.", "Witch hunting is when you continuously target someone and follow them. This is frowned upon, but when taken to the extremes, you can be punished.", "Multiboxing is when you use a script to control multiple tanks at the same time. This is considered CHEATING and will result in a ban."]
@@ -3326,12 +3326,13 @@
                     extravm: "ExtraVM",
                     ovh: "OVH",
                     ivyx: "Glitch",
+                    cell_wars: "Glitch",
                 }, {
                     unknown: ["Unknown", null],
                     local: ["Local", null],
                     sv: ["US West", -7],
                     la: ["US West", -7],
-                    1: ["US East", 2],  
+                    1: ["US East", 2],   
                     singapore: ["Asia", 8],
                     
                   
@@ -3389,6 +3390,9 @@
                         id: "a",
                         to: "Assault",
                         remove: "2"
+                    }, {
+                        id: "c",
+                        to: "Cell Wars",
                     }]
                 ]
             ],
@@ -3412,31 +3416,13 @@
                     featured: !0
                 }, {
                     visible: 0,
-                    id: "e",
-                    type: "cell-wars",
-                    code: "cell_wars-1-4",
+                    id: "b",
+                    type: "c",
+                    code: "cell_wars-1-cell_wars",
                     at: m.glitch("cell-wars"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0
-                }, {
-                    visible: 0,
-                    id: "d",
-                    type: "3tdm",
-                    code: "r7-1-3",
-                    at: m.glitch("7robo"),
-                    untrusted: !0,
-                    secure: -1,
-                    prefer: !0
-                }, {
-                    visible: 0,
-                    id: "a",
-                    type: "1ffa",
-                    code: "a0-1-f",
-                    at: m.glitch("arras0"),
-                    secure: -1,
-                    untrusted: !0,
-                    prefer: !0,
                 }
             ].map((a,
                 e) => ({
