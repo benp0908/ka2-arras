@@ -475,6 +475,9 @@
                     case "neon":
                         B.graphical.darkBorders =
                             B.graphical.neon = !0
+                        break;
+                    case "thin":
+                        B.graphical.darkBorders = B.graphical.neon = !0.5;
                 }
                 I.submitToLocalStorage("optColors");
                 d = document.getElementById("optColors").value;
