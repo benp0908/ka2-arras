@@ -3340,7 +3340,7 @@
                     unknown: ["Unknown", null],
                     local: ["Local", null],
                     sv: ["US West", -7],
-                    la: ["0101", -7],
+                    la: ["US West", -7],
                     1: ["IvyX", 2],   
                     singapore: ["Asia", 8],
                     
@@ -3427,7 +3427,7 @@
                     visible: 0,
                     id: "b",
                     type: "c",
-                    code: "cell_wars-1-cell_wars",
+                    code: "cell_wars-1-ffa",
                     at: m.glitch("cell-wars"),
                     untrusted: !0,
                     secure: -1,
