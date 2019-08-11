@@ -27,7 +27,6 @@
   <link rel="manifest" href="/favicon/manifest.json">
   <meta name="theme-color" content="#8abc3f">
 </head>
-<!-- https://discordapp.com/oauth2/authorize?client_id=427927499071160320&redirect_uri=http%3A%2F%2Farras.io%2Fcallback&response_type=code&scope=identify%20email -->
 <body oncontextmenu="return event.target.tagName === 'A'">
   <div id="gameAreaWrapper">
     <canvas id="gameCanvas" tabindex="1"></canvas>
@@ -36,9 +35,6 @@
   <div id="mainWrapper">
     <div id="startMenuWrapper">
       <div class="menuTabs">
-        <!--<a class="menuTab discord" href="/logout">Log out</a>
-        <a class="menuTab stat" href="/stats">View stats</a>-->
-        <!--<a class="menuTab discord" href="/login">Log in via Discord</a>-->
       </div>
       <div id="startMenu">
         <div class="startMenuHolder">
@@ -163,10 +159,10 @@
         <div class="startMenuHolder shrinkable">
           <div class="changelogSelectorContainer">
             <div class="changelogSelector" id="changelogSelector">
-              <span data-type="updates" class="active" title="All major updates">Updates</span>
-              <span data-type="events" title="Major updates involving events or gamemodes">Events & Gamemodes</span>
-              <span data-type="balances" title="Every balance update, major or minor">Balance</span>
-              <span data-type="changelog" title="Every single update">All</span>
+              <span data-type="updates" class="active" title="All major updates.">Updates</span>
+              <span data-type="events" title="Major updates involving events or gamemodes.">Events & Gamemodes</span>
+              <span data-type="balances" title="Every balance update, major or minor.">Balance</span>
+              <span data-type="changelog" title="Every single update, ever.">All</span>
             </div>
           </div>
           <div id="patchNotes" class="shadowScroll updates"></div>
@@ -182,7 +178,7 @@
   window.onerror = function(message, source, lineno, colno, error) {
     window.onerror = null
     if (error) error = error.toString()
-    console.warn('The game crashed, refreshing page to recover from error')
+    console.warn('The game crashed, refreshing page to recover from error...')
     if (error == null && lineno == 0 && colno == 0) return
     var e = JSON.stringify({
       message: message,
@@ -191,7 +187,7 @@
       colno: colno,
       error: error
     })
-    prompt('The game has commit crash due to an error in the code. Error info:', e)
+    prompt('The game has crashed due to an error in the code. Error info:', e)
   }
   </script>
   <script src="/bundle.js"></script>
