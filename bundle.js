@@ -2854,7 +2854,7 @@
                             if (B.graphical.screenshotMode) W[6].draw("Arras Unlimited", h + 200, q - 2, 15, l.guiwhite, "right");
                             else {
                                 if (b.showDebug) {
-                                    W[6].draw("Arras Unlimited", h + 200, q - 84 - 2, 15, l.guiwhite, "right");
+                                    W[6].draw("Arras X", h + 200, q - 84 - 2, 15, l.ice, "right");
                                     let b = r.getPeriodicAverage();
                                     W[5].draw("Tank Speed: " + w.toFixed(2) + " gu/s" + (b && .005 <= b ? ` (${b.toFixed(2)} gu/s)` : ""), h + 200, q - 70, 10, l.guiwhite, "right");
                                     W[4].draw("Prediction: " + d.toFixed(3), h + 200, q - 56, 10, l.guiwhite, "right");
@@ -3406,19 +3406,20 @@
                     secure: -1
                 }, {
                     visible: 0,
-                    id: "c",
+                    id: "a",
                     type: "2tdm",
-                    code: "ivyx-amsterdam-2",
+                    code: "2tdm",
                     at: m.glitch("ivyx"),
                     untrusted: !0,
                     secure: -1,
-                    prefer: !0
+                    prefer: !0,
+                    featured: !0
                 }, {
                     visible: 0,
-                    id: "e",
-                    type: "4tdm",
-                    code: "pentia-europe-4",
-                    at: m.glitch("0101s-arras"),
+                    id: "b",
+                    type: "cell wars",
+                    code: "cell-wars",
+                    at: m.glitch("cell-wars"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0
