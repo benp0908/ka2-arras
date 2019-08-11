@@ -2860,10 +2860,10 @@
                                 w = Math.sqrt(y.vx * y.vx + y.vy * y.vy);
                             b.showDebug && (G(h, u - 40, 200, 30), t.addValue(d), t.draw(h, u - 40, 200, 30), r.addValue(w), r.draw(h, u - 40, 200, 30), z.addValue(K.rendergap),
                                 z.draw(h, u - 40, 200, 30), g.addValue(m), g.draw(h, u - 40, 200, 30), q -= 40);
-                            if (B.graphical.screenshotMode) W[6].draw("Arras X", h + 200, q - 2, 15, l.guiwhite, "right");
+                            if (B.graphical.screenshotMode) W[6].draw("Arras", h + 200, q - 2, 15, l.guiwhite, "right");
                             else {
                                 if (b.showDebug) {
-                                    W[6].draw("Arras X", h + 200, q - 84 - 2, 15, l.ice, "right");
+                                    W[6].draw("Arras", h + 200, q - 84 - 2, 15, l.ice, "right");
                                     let b = r.getPeriodicAverage();
                                     W[5].draw("Tank Speed: " + w.toFixed(2) + " gu/s" + (b && .005 <= b ? ` (${b.toFixed(2)} gu/s)` : ""), h + 200, q - 70, 10, l.guiwhite, "right");
                                     W[4].draw("Prediction: " + d.toFixed(3), h + 200, q - 56, 10, l.guiwhite, "right");
@@ -3114,7 +3114,7 @@
                 w();
                 var c = [
                     ["Tip: You can view and edit your keybinds in the options menu.", "Tip: You can play on mobile by just going to ivyx-arras.glitch.me on your phone!"],
-                    ["Tip: You can have the shield and health bar be separated by going to the options menu.", "Tip: If Arras X is having a low frame rate, you can try enabling low graphics in the options menu.", "Tip: You can make traps rounded with the classic trap setting in the options menu."
+                    ["Tip: You can have the shield and health bar be separated by going to the options menu.", "Tip: If Arras is having a low frame rate, you can try enabling low graphics in the options menu.", "Tip: You can make traps rounded with the classic trap setting in the options menu."
                     ],
                     ["Teaming in FFA or FFA Maze is frowned upon, but when taken to the extremes, you can be punished.", "Witch hunting is when you continuously target someone and follow them. This is frowned upon, but when taken to the extremes, you can be punished.", "Multiboxing is when you use a script to control multiple tanks at the same time. This is considered CHEATING and will result in a ban."]
                 ];
@@ -3334,14 +3334,14 @@
                     buyvm: "BuyVM",
                     extravm: "ExtraVM",
                     ovh: "OVH",
-                    ivyx: "IvyX's Arras",
-                    cell_wars: "Cell Wars",
+                    server_example_1: "Glitch",
+                    server_example_2: "Glitch",
                 }, {
                     unknown: ["Unknown", null],
                     local: ["Local", null],
                     sv: ["US West", -7],
                     la: ["US West", -7],
-                    1: ["IvyX", 2],   
+                    1: ["US East", 2],   
                     singapore: ["Asia", 8],
                     
                   
@@ -3393,15 +3393,9 @@
                         to: "Mothership",
                         remove: "2"
                     }, {
-                        id: "r",
-                        to: "Real Arras Mothership",
-                    }, {
                         id: "a",
                         to: "Assault",
                         remove: "2"
-                    }, {
-                        id: "c",
-                        to: "Cell Wars",
                     }]
                 ]
             ],
@@ -3416,9 +3410,9 @@
                 }, {
                     visible: 0,
                     id: "a",
-                    type: "2tdm",
-                    code: "ivyx-1-2",
-                    at: m.glitch("ivyx"),
+                    type: "FFA",
+                    code: "server_example_1-1-ffa",
+                    at: m.glitch("server-example-1"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
@@ -3426,9 +3420,9 @@
                 }, {
                     visible: 0,
                     id: "b",
-                    type: "c",
-                    code: "cell_wars-1-ffa",
-                    at: m.glitch("cell-wars"),
+                    type: "4TDM",
+                    code: "server_example_2-1-2",
+                    at: m.glitch("server-example-2"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0
