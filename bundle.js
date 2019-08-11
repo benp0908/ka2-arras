@@ -196,14 +196,17 @@
                     return 150 > Date.now() % 300 ? l.red : l.grey;
                 case 24:
                     return 150 > Date.now() % 300 ? l.grey : l.red;
-              case 25:
-                return l.dgreen;
-              case 26:
-                return l.navy;
-              case 27:
-                return l.ice;
-              case 28:
-                return l.orang; 
+                case 25:
+                    return l.dgreen;
+                case 26:
+                    return l.navy;
+                case 27:
+                    return l.ice;
+                case 28:
+                    return l.orang; 
+                case 29:
+                    return 150 > Date.now() % 300 ? l.red : l.orang;
+                
                 default:
                     return "#FF0000"
             }
