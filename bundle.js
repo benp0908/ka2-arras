@@ -3334,14 +3334,14 @@
                     buyvm: "BuyVM",
                     extravm: "ExtraVM",
                     ovh: "OVH",
-                    ivyx: "Glitch",
-                    cell_wars: "Glitch",
+                    ivyx: "IvyX's Arras",
+                    cell_wars: "Cell Wars",
                 }, {
                     unknown: ["Unknown", null],
                     local: ["Local", null],
                     sv: ["US West", -7],
-                    la: ["US West", -7],
-                    1: ["US East", 2],   
+                    la: ["0101", -7],
+                    1: ["IvyX", 2],   
                     singapore: ["Asia", 8],
                     
                   
