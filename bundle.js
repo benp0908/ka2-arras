@@ -475,9 +475,6 @@
                     case "neon":
                         B.graphical.darkBorders =
                             B.graphical.neon = !0
-                        break;
-                    case "thin":
-                        B.graphical.darkBorders = B.graphical.neon = !0.5;
                 }
                 I.submitToLocalStorage("optColors");
                 d = document.getElementById("optColors").value;
@@ -3429,7 +3426,7 @@
                     code: "cell_wars-1-cell_wars",
                     at: m.glitch("cell-wars"),
                     untrusted: !0,
-                    secure: -1,
+                    secure: -2,
                     prefer: !0
                 }
             ].map((a,
