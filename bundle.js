@@ -1016,6 +1016,10 @@
                             return "Body Damage;Max Health;Placement Speed;Trap Health;Trap Penetration;Trap Damage;Reload;Movement Speed;Shield Regeneration;Shield Capacity".split(";");
                         case 6:
                             return "Body Damage;Max Health;Weapon Speed;Weapon Health;Weapon Penetration;Weapon Damage;Reload;Movement Speed;Shield Regeneration;Shield Capacity".split(";");
+                        case 7:
+                            return "Body Damage;Max Health;Lance Range;Lance Longevity;Lance Sharpness;Lance Damage;Lance Density;Movement Speed;Shield Regeneration;Shield Capacity".split(";");
+                        case 8:
+                            return "Damage;Health;NO WAY!;NO WAY!;NO WAY!;NO WAY!;Movement Speed;NO WAY!;Shield Regeneration;Shield Capacity".split(";");
                         default:
                             return "Body Damage;Max Health;Bullet Speed;Bullet Health;Bullet Penetration;Bullet Damage;Reload;Movement Speed;Shield Regeneration;Shield Capacity".split(";")
                     }
@@ -2856,7 +2860,7 @@
                                 w = Math.sqrt(y.vx * y.vx + y.vy * y.vy);
                             b.showDebug && (G(h, u - 40, 200, 30), t.addValue(d), t.draw(h, u - 40, 200, 30), r.addValue(w), r.draw(h, u - 40, 200, 30), z.addValue(K.rendergap),
                                 z.draw(h, u - 40, 200, 30), g.addValue(m), g.draw(h, u - 40, 200, 30), q -= 40);
-                            if (B.graphical.screenshotMode) W[6].draw("Arras Unlimited", h + 200, q - 2, 15, l.guiwhite, "right");
+                            if (B.graphical.screenshotMode) W[6].draw("Arras X", h + 200, q - 2, 15, l.guiwhite, "right");
                             else {
                                 if (b.showDebug) {
                                     W[6].draw("Arras X", h + 200, q - 84 - 2, 15, l.ice, "right");
@@ -3110,7 +3114,7 @@
                 w();
                 var c = [
                     ["Tip: You can view and edit your keybinds in the options menu.", "Tip: You can play on mobile by just going to ivyx-arras.glitch.me on your phone!"],
-                    ["Tip: You can have the shield and health bar be separated by going to the options menu.", "Tip: If arras is having a low frame rate, you can try enabling low graphics in the options menu.", "Tip: You can make traps rounded with the classic trap setting in the options menu."
+                    ["Tip: You can have the shield and health bar be separated by going to the options menu.", "Tip: If Arras X is having a low frame rate, you can try enabling low graphics in the options menu.", "Tip: You can make traps rounded with the classic trap setting in the options menu."
                     ],
                     ["Teaming in FFA or FFA Maze is frowned upon, but when taken to the extremes, you can be punished.", "Witch hunting is when you continuously target someone and follow them. This is frowned upon, but when taken to the extremes, you can be punished.", "Multiboxing is when you use a script to control multiple tanks at the same time. This is considered CHEATING and will result in a ban."]
                 ];
