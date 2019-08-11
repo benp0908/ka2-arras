@@ -3406,15 +3406,6 @@
                     secure: -1
                 }, {
                     visible: 0,
-                    id: "b",
-                    type: "4mot",
-                    code: "hb-montreal-4",
-                    at: m.glitch("hib-nation-arras"),
-                    untrusted: !0,
-                    secure: -1,
-                    prefer: !0
-                }, {
-                    visible: 0,
                     id: "c",
                     type: "2tdm",
                     code: "ivyx-amsterdam-2",
