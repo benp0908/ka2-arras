@@ -3426,7 +3426,7 @@
                     code: "cell_wars-1-cell_wars",
                     at: m.glitch("cell-wars"),
                     untrusted: !0,
-                    secure: -2,
+                    secure: -1,
                     prefer: !0
                 }
             ].map((a,
