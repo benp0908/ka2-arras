@@ -1991,19 +1991,6 @@
                             y.renderx = y.cx;
                             y.rendery = y.cy;
                             y.renderv = y.view;
-                            ha && (clearInterval(pa), Y.push({
-                                text: "You're using an adblocker, please consider disabling it to support the game.",
-                                status: 2,
-                                alpha: 0,
-                                time: Date.now()
-                            }), pa = setInterval(() => {
-                                Y.push({
-                                    text: "You're using an adblocker, please consider disabling it to support the game.",
-                                    status: 2,
-                                    alpha: 0,
-                                    time: Date.now()
-                                })
-                            }, 6E5));
                             break;
                         case "S":
                             var d = c[0];
@@ -3334,16 +3321,11 @@
                     a0: "Arras0",
                     glitch: "Glitch",
                     os: "OpenShift",
-                    hb: "Habib Nation",
                     linode: "Linode",
                     vultr: "Vultr",
                     buyvm: "BuyVM",
                     extravm: "ExtraVM",
-                    r7: "7robo",
                     ovh: "OVH",
-                    ivyx: "IvyX's Server",
-                    pentia:"Pentia's Server",
-                    e: "Example"
                 }, {
                     unknown: ["Unknown", null],
                     local: ["Local", null],
