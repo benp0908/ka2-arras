@@ -254,6 +254,8 @@
                     return T(l.white, l.guiblack, 1 / 3);
                 case "dor1":
                     return l.vlgrey;
+                case "nest":
+                    return l.purple;
                 default:
                     return l.white
             }
@@ -4792,7 +4794,30 @@
             orang: "#FF8000",
                 paletteSize: 10,
                 border: .65
-            }
+            },
+            bright: {
+            "teal":"#00ffac",
+            "lgreen":"#8cff00",
+            "orange":"#ff3900",
+            "yellow":"#ffec00",
+            "lavender":"#5900ff",
+            "pink":"#ff0080",
+            "vlgrey":"#e1e1e1",
+            "lgrey":"#bfbfbf",
+            "guiwhite":"#ffffff",
+            "black":"#000000",
+            "blue":"#00b9ff",
+            "green":"#99ff00",
+            "red":"#ff0006",
+            "gold":"#ffbf00",
+            "purple":"#4d00ff",
+            "magenta":"#ff0086",
+            "grey":"#bfbfbf",
+            "dgrey":"#827d7d",
+            "white":"#ffffff",
+            "guiblack":"#000000",
+            "paletteSize":10,
+            "border":"0.5"}
         }
     }]);
 }.call(this)
