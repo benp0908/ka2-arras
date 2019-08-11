@@ -3318,7 +3318,6 @@
             codeTable: [{
                     z: "Private",
                     local: "Local",
-                    a0: "Arras0",
                     glitch: "Glitch",
                     os: "OpenShift",
                     linode: "Linode",
@@ -3326,16 +3325,13 @@
                     buyvm: "BuyVM",
                     extravm: "ExtraVM",
                     ovh: "OVH",
+                    ivyx: "Glitch",
                 }, {
                     unknown: ["Unknown", null],
                     local: ["Local", null],
-                    europe: ["8/6/19-1", 2],
-                    montreal: ["v1.15", -4],
-                    frankfurt: ["v1.2", 2],
                     sv: ["US West", -7],
                     la: ["US West", -7],
-                    germany: ["v1.0.0", 2],  
-                    amsterdam: ["v1.0.3", 2],  
+                    1: ["US East", 2],  
                     singapore: ["Asia", 8],
                     
                   
@@ -3408,7 +3404,7 @@
                     visible: 0,
                     id: "a",
                     type: "2tdm",
-                    code: "2tdm",
+                    code: "ivyx-1-2",
                     at: m.glitch("ivyx"),
                     untrusted: !0,
                     secure: -1,
@@ -3416,9 +3412,9 @@
                     featured: !0
                 }, {
                     visible: 0,
-                    id: "b",
-                    type: "cell wars",
-                    code: "cell-wars",
+                    id: "e",
+                    type: "cell-wars",
+                    code: "cell_wars-1-4",
                     at: m.glitch("cell-wars"),
                     untrusted: !0,
                     secure: -1,
@@ -3427,7 +3423,7 @@
                     visible: 0,
                     id: "d",
                     type: "3tdm",
-                    code: "r7-frankfurt-3",
+                    code: "r7-1-3",
                     at: m.glitch("7robo"),
                     untrusted: !0,
                     secure: -1,
@@ -3436,12 +3432,11 @@
                     visible: 0,
                     id: "a",
                     type: "1ffa",
-                    code: "a0-germany-f",
+                    code: "a0-1-f",
                     at: m.glitch("arras0"),
                     secure: -1,
                     untrusted: !0,
                     prefer: !0,
-                    featured: !0
                 }
             ].map((a,
                 e) => ({
