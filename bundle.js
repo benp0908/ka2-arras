@@ -3412,7 +3412,7 @@
                     id: "a",
                     type: "FFA",
                     code: "server_example_1-1-ffa",
-                    at: m.glitch("0101s-arras"),
+                    at: m.glitch("server-example-1"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
