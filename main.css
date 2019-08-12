@@ -219,10 +219,10 @@ a.menuTab {
 }
 a.menuTab.discord {
   padding: 6px 10px 7px 32px;
-  background: #7289DA url(/img/discord.svg) 8px 3px/22px no-repeat;
+  background: #7289DA url(http://arras.io/favicon/96x96.png) 8px 3px/22px no-repeat;
 }
 a.menuTab.stat {
-  background: #f00 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKUlEQVQoU2NkQAP/////DxJiZGRkRJZC4YAkcCpEl6C9QrgNhKweSgoBUcBf8wTAguMAAAAASUVORK5CYII=) 10px 8px no-repeat;
+  background: #f00 url(http://arras.io/favicon/96x96.png) 10px 8px no-repeat;
   /*
   let canvas = document.body.appendChild(document.createElement('canvas'))
   canvas.width = 10
@@ -728,7 +728,7 @@ select {
   padding: 2px 28px 2px 8px;
   height: 21px;
   margin-left: 3px;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAICAYAAAD0g6+qAAAAwklEQVQoU42QMQrCQBBFZxeGgJ7BI1jYa2GzTTY3sRUECy1yA0svEQhhEHIHLdRrqF2a5EuCkbgmmin/zLz5f5QxZsTMK2ZeR1F0p5ay1i7zPD+LiLT1S01Za7dEtCGiY5Zl8zRNH81h3/d3SqkFgFOSJJNOUBAEAwAHIpq6sAbkprWexXF86QSVjTaY53nhy8lfSBWtvuDAKhlAL8gHyHUGAFrr8a84zZhvR7VojBkyc1gUxV5Erl0/cfUvUN9Fd+4JA1JkCdbmVf8AAAAASUVORK5CYII=) 100% no-repeat #eee;
+  background: url(http://arras.io/favicon/96x96.png) 100% no-repeat #eee;
   /*
   let canvas = document.body.appendChild(document.createElement('canvas'))
   canvas.width = Math.ceil(8 * Math.sqrt(2)) + 6
