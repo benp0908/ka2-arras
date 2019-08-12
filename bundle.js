@@ -1002,7 +1002,7 @@
                 ["norm"]
             ],
             A = {
-                getStatNames: b => {
+                getStatNames: b => { //You can add stat names for all the servers you're in.
                     switch (b) {
                         case 1:
                             return "Body Damage;Max Health;Bullet Speed;Bullet Health;Bullet Penetration;Bullet Damage;Engine Acceleration;Movement Speed;Shield Regeneration;Shield Capacity".split(";");
@@ -1018,8 +1018,6 @@
                             return "Body Damage;Max Health;Weapon Speed;Weapon Health;Weapon Penetration;Weapon Damage;Reload;Movement Speed;Shield Regeneration;Shield Capacity".split(";");
                         case 7:
                             return "Body Damage;Max Health;Lance Range;Lance Longevity;Lance Sharpness;Lance Damage;Lance Density;Movement Speed;Shield Regeneration;Shield Capacity".split(";");
-                        case 8:
-                            return "Damage;Health;NO WAY!;NO WAY!;NO WAY!;NO WAY!;Movement Speed;NO WAY!;Shield Regeneration;Shield Capacity".split(";");
                         default:
                             return "Body Damage;Max Health;Bullet Speed;Bullet Health;Bullet Penetration;Bullet Damage;Reload;Movement Speed;Shield Regeneration;Shield Capacity".split(";")
                     }
@@ -3112,7 +3110,7 @@
                 var a = w(),
                     e = w();
                 w();
-                var c = [
+                var c = [ //You can change the tips lol
                     ["Tip: You can view and edit your keybinds in the options menu.", "Tip: You can play on mobile by just going to arras.io on your phone!"],
                     ["Tip: You can have the shield and health bar be separated by going to the options menu.", "Tip: If Arras is having a low frame rate, you can try enabling low graphics in the options menu.", "Tip: You can make traps rounded with the classic trap setting in the options menu."
                     ],
@@ -3346,7 +3344,7 @@
                     
                   
                 },
-                [
+                [ //Gamemode Names
                     [{
                         id: "p",
                         to: "Private"
@@ -3400,7 +3398,7 @@
                 ]
             ],
             timezone: (new Date).getTimezoneOffset() / -60,
-            servers: [{
+            servers: [{ //The glitch servers that it connects to (The one with id: z is for private servers that you can connect to it.)
                     id: "z",
                     type: "0unk",
                     code: "z-unknown-pe6server",
@@ -4400,7 +4398,7 @@
             return p
         }
     }, function(p) {
-        p.exports = {
+        p.exports = { //Themes
             normal: {
                 teal: "#7ADBBC",
                 lgreen: "#B9E87E",
