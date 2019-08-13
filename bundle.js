@@ -217,7 +217,7 @@
             return B.graphical.darkBorders ? d : T(b, d, l.border)
         }
 
-        function v(b) {
+        function v(b) { //For tile colors
             switch (b) {
                 case "bas1":
                 case "bap1":
@@ -2860,7 +2860,7 @@
                                 z.draw(h, u - 40, 200, 30), g.addValue(m), g.draw(h, u - 40, 200, 30), q -= 40);
                             if (B.graphical.screenshotMode) W[6].draw("Arras", h + 200, q - 2, 15, l.guiwhite, "right");
                             else {
-                                if (b.showDebug) {
+                                if (b.showDebug) { //Debug names
                                     W[6].draw("Arras", h + 200, q - 84 - 2, 15, l.ice, "right");
                                     let b = r.getPeriodicAverage();
                                     W[5].draw("Tank Speed: " + w.toFixed(2) + " gu/s" + (b && .005 <= b ? ` (${b.toFixed(2)} gu/s)` : ""), h + 200, q - 70, 10, l.guiwhite, "right");
