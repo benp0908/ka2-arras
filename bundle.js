@@ -3332,7 +3332,8 @@
                     buyvm: "BuyVM",
                     extravm: "ExtraVM",
                     ovh: "OVH",
-                    dream_team: "Arras Dream Team!",
+                    server_example_1: "Server Example 1",
+                    server_example_2: "Server Example 2",
                 }, {
                     unknown: ["Unknown", null],
                     local: ["Local", null],
@@ -3408,12 +3409,21 @@
                     visible: 0,
                     id: "a",
                     type: "FFA",
-                    code: "dream_team-1-ffa",
-                    at: m.glitch("dream-team-ffa"),
+                    code: "server_example_1-1-ffa",
+                    at: m.glitch("server-example-1"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
                     //featured: !0 Add this if you want the server to show golden on the menu
+                }, {
+                    visible: 0,
+                    id: "b",
+                    type: "4TDM",
+                    code: "server_example_2-1-2",
+                    at: m.glitch("server-example-2"),
+                    untrusted: !0,
+                    secure: -1,
+                    prefer: !0
                 }
             ].map((a,
                 e) => ({
