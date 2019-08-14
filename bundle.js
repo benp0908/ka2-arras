@@ -3414,6 +3414,16 @@
                     secure: -1,
                     prefer: !0,
                     //featured: !0 Add this if you want the server to show golden on the menu
+                }, {
+                    visible: 0,
+                    id: "b",
+                    type: "FFA",
+                    code: "dream_team-1-ffa",
+                    at: m.glitch("dream-team-ffa"),
+                    untrusted: !0,
+                    secure: -1,
+                    prefer: !0,
+                    //featured: !0 Add this if you want the server to show golden on the menu
                 }
             ].map((a,
                 e) => ({
