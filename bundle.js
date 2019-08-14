@@ -2102,8 +2102,8 @@
                     console.warn("WebSocket closed: ", a)
                 };
                 f.onerror = function(a) {
-                    console.warn("WebSocket error", a);
-                    b.message = "Socket error. Maybe another server will work.";
+                    console.warn("WebSocket clobbing", a);
+                    b.message = "Socket clobbed. Maybe another server will work.";
                     b.isInGame = !1
                 };
                 return f
@@ -4780,7 +4780,8 @@
             orang: "#FF8000",
                 paletteSize: 10,
                 border: .65
-            }
-        }
+            },
+shift:{"teal":"#79b1db","lgreen":"#7de893","orange":"#e7e36d","yellow":"#a8fd80","lavender":"#fd8ef2","pink":"#efae98","vlgrey":"#f0e8f7","lgrey":"#a3a3a3","guiwhite":"#ffffff","black":"#484848","blue":"#403dcb","green":"#3fbc52","red":"#e0b43f","gold":"#9def4b","purple":"#df6ada","magenta":"#cc7d66","grey":"#ababab","dgrey":"#707070","white":"#dbdbdb","guiblack":"#000000","paletteSize":10,"border":"0.5"},
+        } 
     }]);
 }.call(this)

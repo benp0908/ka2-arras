@@ -108,7 +108,8 @@
                 <option value="pastel">Snow (Fan-made)</option>
                 <option value="ocean">Coral Reef (Fan-made)</option>
                 <option value="badlands">Badlands (Fan-made)</option>
-                <option value="bleach">Bleach (Fan-made)</option>
+                <option value="shift">Color Shift (Fan-made)</option>
+                <option value="bleach">Select this, I dare you... (Fan-made)</option>
                 <option value="custom">Custom</option>
               </select>
               <select id="optMobile" tabindex="-1">
@@ -177,7 +178,7 @@
   window.onerror = function(message, source, lineno, colno, error) {
     window.onerror = null
     if (error) error = error.toString()
-    console.warn('The game crashed, refreshing page to recover from error...')
+    console.warn('The game crashed, refreshing page to recover from clobbing...')
     if (error == null && lineno == 0 && colno == 0) return
     var e = JSON.stringify({
       message: message,
@@ -186,7 +187,7 @@
       colno: colno,
       error: error
     })
-    prompt('The game has crashed due to an error in the code. Error info:', e)
+    prompt('The game has crashed due to a clobbing in the code. Clobbing info:', e)
   }
   </script>
   <script src="/bundle.js"></script>
