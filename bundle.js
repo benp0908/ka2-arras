@@ -2098,7 +2098,7 @@
                     V.logEvent("disconnect");
                     f.open = !1;
                     b.disconnected = !0;
-                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "Socket closed. If you disconnected, respawn within 30 seconds to regain your score."));
+                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "Socket clobbed. If you disconnected, respawn within 30 seconds to regain your score."));
                     console.warn("WebSocket closed: ", a)
                 };
                 f.onerror = function(a) {
@@ -3332,8 +3332,7 @@
                     buyvm: "BuyVM",
                     extravm: "ExtraVM",
                     ovh: "OVH",
-                    server_example_1: "Server Example 1",
-                    server_example_2: "Server Example 2",
+                    dream_team: "Arras Dream Team!",
                 }, {
                     unknown: ["Unknown", null],
                     local: ["Local", null],
@@ -3408,22 +3407,13 @@
                 }, {
                     visible: 0,
                     id: "a",
-                    type: "FFA",
-                    code: "server_example_1-1-ffa",
-                    at: m.glitch("server-example-1"),
+                    type: "4TDM",
+                    code: "dream_team-1-4",
+                    at: m.glitch("dream-team-4tdm"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
                     //featured: !0 Add this if you want the server to show golden on the menu
-                }, {
-                    visible: 0,
-                    id: "b",
-                    type: "4TDM",
-                    code: "server_example_2-1-2",
-                    at: m.glitch("server-example-2"),
-                    untrusted: !0,
-                    secure: -1,
-                    prefer: !0
                 }
             ].map((a,
                 e) => ({
