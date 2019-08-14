@@ -3393,6 +3393,10 @@
                         id: "a",
                         to: "Assault",
                         remove: "2"
+                    }, {
+                        id: "t",
+                        to: "2-2 Team",
+                        end: "2-2TDM"
                     }]
                 ]
             ],
@@ -3413,7 +3417,7 @@
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
-                    //featured: !0 Add this if you want the server to show golden on the menu
+                    //featured: !0 //Add this if you want the server to show golden on the menu
                 }, {
                     visible: 0,
                     id: "b",
@@ -3423,8 +3427,18 @@
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
-                    //featured: !0 Add this if you want the server to show golden on the menu
-                }
+                    //featured: !0
+                }, {
+                    visible: 0,
+                    id: "c",
+                    type: "2-2TDM",
+                    code: "dream_team-1-t",
+                    at: m.glitch("dream-team-22tdm"),
+                    untrusted: !0,
+                    secure: -1,
+                    prefer: !0,
+                    featured: !0 
+                }, 
             ].map((a,
                 e) => ({
                 data: a,
