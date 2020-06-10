@@ -2008,7 +2008,7 @@
                                 delta: c,
                                 latency: d
                             });
-                            if (10 > S.length) setTimeout(() => f.talk("S", Date.now() - P - Q), 75), b.message = `Syncing clocks, please do not tab away! Progress: ${1*S.length}/10`;
+                            if (10 > S.length) setTimeout(() => f.talk("S", Date.now() - P - Q), 75), b.message = `Tip: Beware of Safety - ${1*S.length}/10`;
                             else {
                                 S.sort((b, a) => b.latency - a.latency);
                                 let a = S[Math.floor(S.length / 2)].latency,
@@ -3121,7 +3121,7 @@
                 let f = c[Math.floor(Math.random() * c.length)];
                 return () => {
                     F(l.white, .5);
-                    a.draw("Connecting...", b.screenWidth / 2, b.screenHeight / 2, 30, l.guiwhite, "center");
+                    a.draw("Preparing, please do not tab away!...", b.screenWidth / 2, b.screenHeight / 2, 30, l.guiwhite, "center");
                     e.draw(b.message, b.screenWidth / 2, b.screenHeight / 2 + 30, 15, l.lgreen, "center");
                     e.draw(f, b.screenWidth / 2, b.screenHeight / 2 + 75, 15, l.guiwhite, "center")
                 }
