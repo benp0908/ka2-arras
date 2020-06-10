@@ -3346,7 +3346,7 @@
                 [ //Gamemode Names
                     [{
                         id: "p",
-                        to: "Private"
+                        to: "Developer Server"
                     }],
                     [{
                         id: "e",
@@ -3370,10 +3370,20 @@
                         id: "f",
                         to: "Protect the Base"
                     }, {
-                        id: "2",
+                        id: "",
                         to: "2 Team",
                         end: "2TDM"
-                    }, {
+                       }, {
+                    visible: 0,
+                    id: "a",
+                    type: "FFA",
+                    code: "server_example_1-1-ffa",
+                    at: m.glitch("destroytheattacker"),
+                    untrusted: !0,
+                    secure: -1,
+                    prefer: !0,
+                    //featured: !0 Add this if you want the server to show golden on the menu
+                }, {
                         id: "3",
                         to: "3 Team",
                         end: "3TDM"
@@ -3429,6 +3439,16 @@
                     prefer: !0,
                     //featured: !0
                 }, {
+                    visible: 0,
+                    id: "c",
+                    type: "2DTM",
+                    code: "dream_team-1-t",
+                    at: m.glitch("2tdm-server"),
+                    untrusted: !0,
+                    secure: -1,
+                    prefer: !0,
+                    featured: !0 
+                     }, {
                     visible: 0,
                     id: "c",
                     type: "2DTM",
