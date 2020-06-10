@@ -2008,7 +2008,7 @@
                                 delta: c,
                                 latency: d
                             });
-                            if (10 > S.length) setTimeout(() => f.talk("S", Date.now() - P - Q), 75), b.message = `Loading... ${10*S.length}%`;
+                            if (10 > S.length) setTimeout(() => f.talk("S", Date.now() - P - Q), 75), b.message = `Syncing clocks, please do not tab away! Progress: ${1*S.length}/10`;
                             else {
                                 S.sort((b, a) => b.latency - a.latency);
                                 let a = S[Math.floor(S.length / 2)].latency,
@@ -3332,7 +3332,7 @@
                     buyvm: "BuyVM",
                     extravm: "ExtraVM",
                     ovh: "OVH",
-                    dream_team: "Arras Dream Team!",
+                    dream_team: "Glitch",
                 }, {
                     unknown: ["Unknown", null],
                     local: ["Local", null],
@@ -3368,7 +3368,7 @@
                     }],
                     [{
                         id: "f",
-                        to: "FFA"
+                        to: "Protect the Base"
                     }, {
                         id: "2",
                         to: "2 Team",
@@ -3395,8 +3395,8 @@
                         remove: "2"
                     }, {
                         id: "t",
-                        to: "2-2 Team",
-                        end: "2-2TDM"
+                        to: "2TDM",
+                        end: "2TDM"
                     }]
                 ]
             ],
@@ -3413,7 +3413,7 @@
                     id: "a",
                     type: "4TDM",
                     code: "dream_team-1-4",
-                    at: m.glitch("dream-team-4tdm"),
+                    at: m.glitch("4tdm-server"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
@@ -3421,9 +3421,9 @@
                 }, {
                     visible: 0,
                     id: "b",
-                    type: "FFA",
+                    type: "Protect the Base",
                     code: "dream_team-1-ffa",
-                    at: m.glitch("dream-team-ffa"),
+                    at: m.glitch("destroytheattacker"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
@@ -3431,9 +3431,9 @@
                 }, {
                     visible: 0,
                     id: "c",
-                    type: "2-2TDM",
+                    type: "2DTM",
                     code: "dream_team-1-t",
-                    at: m.glitch("dream-team-22tdm"),
+                    at: m.glitch("2tdm-server"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,

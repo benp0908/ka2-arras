@@ -14,7 +14,6 @@
 html, body {
   overflow: hidden;
   height: 100%;
-
   position: fixed;
   -webkit-overflow-scrolling: touch;
   -webkit-user-select: none;
@@ -49,7 +48,7 @@ h1 {
 
 div.optionsHeader {
   display: block;
-  margin: 10px 0 4px;
+  margin: 8px 0 4px;
   font: bold 13px/1 Ubuntu;
   color: #000000;
   text-align: center;
@@ -94,7 +93,7 @@ h3 {
 }
 
 .shadowScroll {
-  overflow-y: auto hidden;
+  overflow-y: scroll;
   background:
     /* Shadow covers */
     linear-gradient(#dde6eb 30%, rgba(255, 255, 255, 0)),
@@ -198,7 +197,7 @@ body.mobile #linkHolder { display: none; }
 }
 
 .startMenuHolder.shrinkable {
-  width: calc(149% - 755px);
+  width: calc(100% - 780px);
 }
 body.mobile .startMenuHolder {
   height: 300px;
@@ -577,7 +576,7 @@ body.mobile .icon {
   position: relative;
   top: 0px;
   z-index: 2;
-  max-width: 755px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 body.mobile #startMenuWrapper { max-width: 780px; }
@@ -880,4 +879,15 @@ i.flag::before {
 }
 i.flag.down::before {
   margin-bottom: 2px;
+}
+
+.chatbox {
+    position: absolute;
+    width: 270px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.7);
+    bottom: 240px;
+    left: 15px;
+    border-radius: 5px;
+    pointer-events: all;
 }
