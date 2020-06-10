@@ -2098,12 +2098,12 @@
                     V.logEvent("disconnect");
                     f.open = !1;
                     b.disconnected = !0;
-                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "Socket clobbed. If you disconnected, respawn within 30 seconds to regain your score."));
+                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "This Server is Currently Down or has been Closed for a Certain Reason, please try again later."));
                     console.warn("WebSocket closed: ", a)
                 };
                 f.onerror = function(a) {
                     console.warn("WebSocket clobbing", a);
-                    b.message = "Socket clobbed. Maybe another server will work.";
+                    b.message = "The Server might be .";
                     b.isInGame = !1
                 };
                 return f
@@ -2861,13 +2861,13 @@
                             if (B.graphical.screenshotMode) W[6].draw("Arras", h + 200, q - 2, 15, l.guiwhite, "right");
                             else {
                                 if (b.showDebug) { //Debug names
-                                    W[6].draw("Arras", h + 200, q - 84 - 2, 15, l.ice, "right");
+                                    W[6].draw("Eclipse.io Debug", h + 200, q - 84 - 2, 15, l.ice, "right");
                                     let b = r.getPeriodicAverage();
                                     W[5].draw("Tank Speed: " + w.toFixed(2) + " gu/s" + (b && .005 <= b ? ` (${b.toFixed(2)} gu/s)` : ""), h + 200, q - 70, 10, l.guiwhite, "right");
                                     W[4].draw("Prediction: " + d.toFixed(3), h + 200, q - 56, 10, l.guiwhite, "right");
                                     W[3].draw("Update Rate: " + K.updatetime + "Hz", h + 200, q -
                                         42, 10, l.guiwhite, "right")
-                                } else W[6].draw("Arras.io", h + 200, q - 42 - 2, 15, l.guiwhite, "right");
+                                } else W[6].draw("Eclipse.io", h + 200, q - 42 - 2, 15, l.guiwhite, "right");
                                 W[2].draw("Client Speed: " + K.rendertime + " FPS", h + 200, q - 28, 10, 10 < K.rendertime ? l.guiwhite : l.orange, "right");
                                 W[1].draw("Server Speed: " + (100 * A.fps).toFixed(2) + "%", h + 200, q - 14, 10, 1 === A.fps ? l.guiwhite : l.orange, "right");
                                 W[0].draw(m.toFixed(1) + " ms  " + b.server.code + " :" + b.server.type + ":", h + 200, q, 10, l.guiwhite, "right")
@@ -2880,7 +2880,7 @@
                                 d = 48;
                             b.mobile &&
                                 (d += (b.canSkill ? 200 / 3 / 1.4 * a.get() : 0) + (b.canUpgrade && 40 + 114 * A.upgrades.length > 1.4 * c ? 100 / 1.4 * k.get() : 0));
-                            0 < N.data.length && V.draw("Leaderboard", Math.round(c + 100) + .5, Math.round(d - 10) + .5, 18, l.guiwhite, "center");
+                            0 < N.data.length && V.draw("Player Scoreboard", Math.round(c + 100) + .5, Math.round(d - 10) + .5, 18, l.guiwhite, "center");
                             for (let a = 0; a < N.data.length && (!b.mobile || 6 > a); a++) {
                                 let b = N.data[a];
                                 L(c, c + 200, d + 7, 11 + B.graphical.barChunk, l.black);
@@ -3345,8 +3345,9 @@
                 },
                 [ //Gamemode Names
                     [{
-                        id: "p",
-                        to: "Developer Server"
+                     id: "p",
+                        to: "Developer",
+
                     }],
                     [{
                         id: "e",
@@ -3394,7 +3395,7 @@
                     }],
                     [{
                         id: "d",
-                        to: "Domination"
+                        to: "4 Team Domination"
                     }, {
                         id: "m",
                         to: "Mothership",
@@ -3450,14 +3451,15 @@
                     featured: !0 
                      }, {
                     visible: 0,
-                    id: "c",
-                    type: "2DTM",
-                    code: "dream_team-1-t",
-                    at: m.glitch("2tdm-server"),
+                    id: "p",
+                    type: "",
+                    code: "dream_team-1-dev",
+                    at: m.glitch("domapp"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
                     featured: !0 
+                       
                 }, 
             ].map((a,
                 e) => ({
