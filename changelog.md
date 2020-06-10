@@ -25,12 +25,12 @@
 - Minelayer - Branches off Mega Trapper and Builder
 
 - Minion firerate nerfed 
-# Update
+# PATCH 06/10/2020 (3)
 - Edited the Home Screen, changed different Buttons and Colors.
 # PATCH 06/10/2020 (2)
-- Tri-Angle Branch 
+- Changed the Shape of the Main Bases and the Rail Defender on the Protect the Base Server.
 - Tweaked the Domination Server Base Design
-# PATCH 06/10/2020
+# PATCH 06/9-10/2020
 - 4 Team Domination and 4DTM were added to the Game.
 - Added the Protect the Base Server and 2TDM Server.
 
