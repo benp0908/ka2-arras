@@ -114,32 +114,22 @@ a:link:hover, a:visited:hover {
 }
 
 input {
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    border: solid 1px #dcdcdc;
-    transition: box-shadow 0.3s, border 0.3s;
-    box-sizing: border-box;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    outline: none;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  font-family: Ubuntu;
+  transition: border 0.3s, background 0.3s, color 0.3s;
 }
 
 #playerNameInput {
   padding: 10px;
-  font-size: larger;
-  }
-  #playerKeyInput {
-    padding: 3px;    
-    color: gray;
-}
-
-input:focus, input.focus {
-    border: solid 1px #CCCCCC;
-    box-shadow: 0 0 3px 1px #DDDDDD;
+  font-size: larger;z
 }
 
 input:focus {
