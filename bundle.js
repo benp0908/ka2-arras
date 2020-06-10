@@ -4044,62 +4044,59 @@
                             case a.KEY_NO_U:
                                 this.emit("u");
                                 break;
-                            case a.KEY_RECORD:
-                                if (this.cv.captureStream && window.MediaRecorder)
-                                    if (this.videoRecorder) switch (this.videoRecorder.state) {
-                                        case "inactive":
+                          case a.KEY_RECORD:
+                                    if (this.cv.captureStream && window.MediaRecorder)
+                                        if (this.videoRecorder) switch (this.videoRecorder.state) {
+                                            case "inactive":
+                                                a.messages.push({
+                                                    text: "Recorder started!",
+                                                    status: 2,
+                                                    alpha: 0,
+                                                    time: Date.now()
+                                                });
+                                                this.videoRecorder.start();
+                                                break;
+                                            case "recording":
+                                                a.messages.push({
+                                                    text: "Recorder stopped! Saving file...",
+                                                    status: 2,
+                                                    alpha: 0,
+                                                    time: Date.now()
+                                                }), this.videoRecorder.stop()
+                                        } else {
+                                            let e = [];
+                                            this.videoRecorder = new MediaRecorder(this.cv.captureStream(60));
+                                            this.videoRecorder.ondataavailable = a => e.push(a.data);
+                                            this.videoRecorder.onstop = () => {
+                                                let a = new Blob(e, {
+                                                    type: this.videoRecorder.mimeType
+                                                });
+                                                e.length = 0;
+                                                let k = URL.createObjectURL(a),
+                                                    q = document.createElement("a");
+                                                q.style.display = "none";
+                                                q.setAttribute("download", "video.webm");
+                                                q.setAttribute("href",
+                                                    k);
+                                                document.body.appendChild(q);
+                                                setTimeout(() => {
+                                                    URL.revokeObjectURL(k);
+                                                    document.body.removeChild(q)
+                                                }, 100);
+                                                q.click()
+                                            };
                                             a.messages.push({
-                                                text: "Recorder started!",
+                                                text: "Recorder initiated and started!",
                                                 status: 2,
                                                 alpha: 0,
                                                 time: Date.now()
                                             });
-                                            this.videoRecorder.start();
-                                            break;
-                                        case "recording":
-                                            a.messages.push({
-                                                text: "Recorder stopped! Saving file...",
-                                                status: 2,
-                                                alpha: 0,
-                                                time: Date.now()
-                                            }), this.videoRecorder.stop()
-                                    } else {
-                                        let e = [];
-                                        var options = {
-                                          mimeType: "video/mp4"
-                                        }
-                                        this.videoRecorder = new MediaRecorder(this.cv.captureStream(60), options);
-                                        this.videoRecorder.ondataavailable = a => e.push(a.data);
-                                        this.videoRecorder.onstop = () => {
-                                            let a = new Blob(e, {
-                                                type: this.videoRecorder.mimeType
-                                            });
-                                            e.length = 0;
-                                            let k = URL.createObjectURL(a),
-                                                n = document.createElement("a");
-                                            n.style.display =
-                                                "none";
-                                            n.setAttribute("download", "arras.mp4");
-                                            n.setAttribute("href", k);
-                                            document.body.appendChild(n);
-                                            setTimeout(() => {
-                                                URL.revokeObjectURL(k);
-                                                document.body.removeChild(n)
-                                            }, 100);
-                                            n.click()
-                                        };
-                                        a.messages.push({
-                                            text: "Recorder initiated and started!",
+                                            this.videoRecorder.start()
+                                        } else a.messages.push({
+                                            text: "Media recorder not supported in this browser!",
                                             status: 2,
                                             alpha: 0,
                                             time: Date.now()
-                                        });
-                                        this.videoRecorder.start()
-                                    } else a.messages.push({
-                                        text: "Media recorder not supported in this browser!",
-                                        status: 2,
-                                        alpha: 0,
-                                        time: Date.now()
                                     });
                                 break;
                             case a.KEY_SCREENSHOT:

@@ -1,3 +1,5 @@
+# UPDATE
+- Tweaked the Domination Server Base Design.
 
 # PATCH 06/10/2020 (2)
 - Tweaked the Domination Server Base Design.
