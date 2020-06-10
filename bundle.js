@@ -2103,7 +2103,7 @@
                 };
                 f.onerror = function(a) {
                     console.warn("WebSocket clobbing", a);
-                    b.message = "The Server might be .";
+                    b.message = "The Server might be being edited, please try again later while the Server Updates.";
                     b.isInGame = !1
                 };
                 return f
@@ -2794,7 +2794,7 @@
                                     D[h - 1].draw(v, Math.round(e + c / 2) + .5, g + 7.5, 10, n, "center", !0);
                                     x[h - 1].draw("[" + h % 10 + "]", Math.round(e + c - 3.75) - 1.5, g + 7.5, 10, n, "right", !0);
                                     n === l.guiwhite && b.clickables.stat.place(h - 1, e * u, g * u, c * u, 15 * u);
-                                    t && R[h - 1].draw(n === r ? "MAX" : "+" + t, Math.round(e + c + 4) + .5, g + 7.5, 10, r, "left", !0);
+                                    t && R[h - 1].draw(n === r ? "USED MAX POINTS" : "+" + t, Math.round(e + c + 4) + .5, g + 7.5, 10, r, "left", !0);
                                     g -= 19
                                 }
                             });
