@@ -1,8 +1,35 @@
-# UPDATE
-- Tweaked the Domination Server Base Design.
+# Update
+- Some tanks are now unlocked at tier 4 (Lvl60)
+- Added a handful of Spawner-branch tanks
+# Update
+- Bases can no longer be pushed
+- Bots are now Smasher-branch tanks to curb lag
+- Testbed Token is now public! Visit my Discord server to claim!
+# Update
+- Added 3 New Tanks:
 
+- Hornet - Branches off Gunner and Tri-Angle
+
+- Typhoon - Branches off Cyclone
+
+- Shadow Tank - Branches off Basic at Lvl30
+
+- Added music function to client (Press on view options)
+# Update
+-Added 3 Tanks:
+
+- Creator - Branches off Spawner and Compass
+
+- Underlord - Branches off Underseer
+
+- Minelayer - Branches off Mega Trapper and Builder
+
+- Minion firerate nerfed 
+# Update
+- Edited the Home Screen, changed different Buttons and Colors.
 # PATCH 06/10/2020 (2)
-- Tweaked the Domination Server Base Design.
+- Tri-Angle Branch 
+- Tweaked the Domination Server Base Design
 # PATCH 06/10/2020
 - 4 Team Domination and 4DTM were added to the Game.
 - Added the Protect the Base Server and 2TDM Server.
