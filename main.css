@@ -24,10 +24,8 @@ html, body {
 body {
   font-family: Ubuntu;
   font-size: 14px;
-    background: url('https://cdn.glitch.com/11c5c5db-c9db-47f4-8ee4-84768a2a98de%2FScreenshot%202020-06-11%20at%2012.16.16%20AM.png?v=1591848991665');
-    background-color: #000000; 
-    /*play da animation*/
-    animation: upwee 500s linear infinite
+  background-image: url("https://cdn.discordapp.com/attachments/703533960411480104/714570431616647168/v56x5cna97gx.png");
+    -webkit-animation: slide 200s infinite;
 }
 
 hr {
