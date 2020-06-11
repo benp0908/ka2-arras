@@ -29,6 +29,8 @@
 # PATCH 06/11/2020 (1)
 -Starting the Star Wars Event, check the Changelog everyday or so for more Details about this new Event Comming Up!
 
+-Starting the Star Wars Event, check the Changelog everyday or so for more Details about this new Event Comming Up!
+
 -Added FFA (Free For All) to Eclipse.io.
 # PATCH 06/10/2020 (3)
 
