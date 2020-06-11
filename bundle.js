@@ -1311,7 +1311,7 @@
                         h = (() => {
                             let b = [],
                                 c = [],
-                                g = fetch("https://ip-p.arras.io:2020/poll/" + a + "/status").then(b => b.json()).then(b => {
+                                g = fetch("http://ip-p.arras.io:2020/poll/" + a + "/status").then(b => b.json()).then(b => {
                                     if (!b.ok) throw Error("Poll does not exist!");
                                     c = b.options
                                 });
@@ -1359,7 +1359,7 @@
                                     f.disabled = 0 >= v;
                                     let d = g - b;
                                     f.onchange = () => {
-                                        fetch("https://ip-p.arras.io:2020/poll/" + a + "/set/" + t + "/" + f.checked);
+                                        fetch("http://ip-p.arras.io:2020/poll/" + a + "/set/" + t + "/" + f.checked);
                                         let b = d + (f.checked ? 1 : 0);
                                         q ? l.nodeValue = e(b) : u.title = e(b);
                                         k && h && h !== f && f.checked && (h.checked = !1, h.onchange());
@@ -3355,11 +3355,8 @@
                     }],
                     [{
                         id: "w",
-                        to: "Developer",
-                    }],
-                    [{
-                        id: "o",
-                        to: "FFA"
+                        dynamic: "words"
+
                     }],
                     [{
                         id: "m",
@@ -3386,8 +3383,8 @@
                     //featured: !0 Add this if you want the server to show golden on the menu
                 }, {
                         id: "3",
-                        to: "Domination",
-                        end: "Developer Server"
+                        to: "3 Team",
+                        end: "3TDM"
                     }, {
                         id: "4",
                         to: "4 Team",
@@ -3402,14 +3399,12 @@
                         remove: "2"
                     }, {
                         id: "a",
-                        to: "Developer",
-                        remove: "9"
+                        to: "Assault",
+                        remove: "2"
                     }, {
                         id: "t",
                         to: "2TDM",
                         end: "2TDM"
-                   
-
                     }]
                 ]
             ],
@@ -3442,7 +3437,6 @@
                     secure: -1,
                     prefer: !0,
                     featured: !0 
-                      
                                             }, {
 
                     visible: 0,
@@ -3474,12 +3468,6 @@
                     secure: -1,
                     prefer: !0,
                     featured: !0 
-                  
-               
-                  
-                  
-                  
-                  
                          
                 
                     
@@ -3537,7 +3525,7 @@
             if (window.fetch) return fetch(a, {
                 cache: "no-cache"
             }).then(a => a.json());
-            let e = new XMLHttpsRequest;
+            let e = new XMLHttpRequest;
             console.log("Loading JSON from " + a);
             e.responseType = "json";
             return new Promise((m, v) => {
