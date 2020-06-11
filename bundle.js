@@ -2098,7 +2098,7 @@
                     V.logEvent("disconnect");
                     f.open = !1;
                     b.disconnected = !0;
-                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "This Server is Currently Down or has been Closed for a Certain Reason, please try again later."));
+                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "This Server is not Opened to the Public, if this is the Developer Server, that Server is not available from Public View."));
                     console.warn("WebSocket closed: ", a)
                 };
                 f.onerror = function(a) {
