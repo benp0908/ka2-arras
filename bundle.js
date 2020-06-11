@@ -3355,7 +3355,7 @@
                     }],
                     [{
                         id: "w",
-                        dynamic: "words"
+                        to: "Developer",
                     }],
                     [{
                         id: "o",
@@ -3402,7 +3402,7 @@
                         remove: "2"
                     }, {
                         id: "a",
-                        to: "Assault",
+                        to: "Developer",
                         remove: "2"
                     }, {
                         id: "t",
@@ -3471,6 +3471,9 @@
                     secure: -1,
                     prefer: !0,
                     featured: !0 
+                  
+                  
+                  
                   
                   
                          
