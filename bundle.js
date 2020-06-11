@@ -3419,6 +3419,17 @@
                     at: "private",
                     untrusted: !0,
                     secure: -1
+                                   }, {
+
+                    visible: 0,
+                    id: "m",
+                    type: "FFA",
+                    code: "dream_team-1-gt",
+                    at: m.glitch("ffa-eclipse"),
+                    untrusted: !0,
+                    secure: -1,
+                    prefer: !0,
+                    featured: !0 
                      }, {
                     visible: 0,
                     id: "p",
@@ -3460,16 +3471,7 @@
                     secure: -1,
                     prefer: !0,
                     featured: !0 
-                         }, {
-                    visible: 0,
-                    id: "m",
-                    type: "FFA",
-                    code: "dream_team-1-gt",
-                    at: m.glitch("ffa-eclipse"),
-                    untrusted: !0,
-                    secure: -1,
-                    prefer: !0,
-                    featured: !0 
+                         
                 
                     
                        
