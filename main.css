@@ -87,8 +87,7 @@ h3 {
   cursor: pointer;
 }
 .serverSelector tr.featured {
-  color: #e8ae00;
-  text-shadow: /*#ffe500 0 0 4px,*/ #fff27e 0 0 6px;
+  color: #828282;
 }
 .serverSelector tr.selected {
   color: #8ABC3F;

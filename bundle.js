@@ -1194,7 +1194,7 @@
                             u.remove && h.push(u.remove);
                             c.push(d);
                             break
-                        } if (0 === c.length) return "Unknown";
+                        } if (0 === c.length) return "FFA";
                 a = c[c.length - 1];
                 a.end && (a.to = a.end);
                 for (a = 0; a + 1 < c.length; a++) c[a].delay && !c[a + 1].delay && (t = c[a], c[a] = c[a + 1], c[a + 1] = t, a++);
@@ -3359,7 +3359,7 @@
                     }],
                     [{
                         id: "o",
-                        to: "Open 3TDM"
+                        to: "FFA"
                     }],
                     [{
                         id: "m",
@@ -3398,7 +3398,7 @@
                         to: "Boss Tour (Public Server)"
                     }, {
                         id: "m",
-                        to: "Mothership",
+                        to: "FFA",
                         remove: "2"
                     }, {
                         id: "a",
@@ -3419,7 +3419,18 @@
                     at: "private",
                     untrusted: !0,
                     secure: -1
-                }, {
+                     }, {
+                    visible: 0,
+                    id: "p",
+                    type: "",
+                    code: "dream_team-1-dev",
+                    at: m.glitch("bosstour"),
+                    untrusted: !0,
+                    secure: -1,
+                    prefer: !0,
+                    featured: !0 
+                                            }, {
+
                     visible: 0,
                     id: "a",
                     type: "4TDM",
@@ -3449,16 +3460,18 @@
                     secure: -1,
                     prefer: !0,
                     featured: !0 
-                     }, {
+                         }, {
                     visible: 0,
-                    id: "p",
-                    type: "",
-                    code: "dream_team-1-dev",
-                    at: m.glitch("bosstour"),
+                    id: "m",
+                    type: "FFA",
+                    code: "dream_team-1-gt",
+                    at: m.glitch("ffa-eclipse"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
                     featured: !0 
+                
+                    
                        
                 }, 
             ].map((a,
