@@ -3386,8 +3386,8 @@
                     //featured: !0 Add this if you want the server to show golden on the menu
                 }, {
                         id: "3",
-                        to: "3 Team",
-                        end: "3TDM"
+                        to: "Domination",
+                        end: "Developer Server"
                     }, {
                         id: "4",
                         to: "4 Team",
@@ -3441,6 +3441,16 @@
                     prefer: !0,
                     featured: !0 
                                             }, {
+                                                 visible: 0,
+                    id: "3",
+                    type: "",
+                    code: "dream_team-1-devserver",
+                    at: m.glitch("developer"),
+                    untrusted: !0,
+                    secure: -1,
+                    prefer: !0,
+                    featured: !0 
+                                            }, {
 
                     visible: 0,
                     id: "a",
@@ -3471,7 +3481,7 @@
                     secure: -1,
                     prefer: !0,
                     featured: !0 
-                  
+               
                   
                   
                   
