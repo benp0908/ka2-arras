@@ -90,7 +90,7 @@ h3 {
   color: #828282;
 }
 .serverSelector tr.selected {
-  color: #8ABC3F;
+  color: #1797e6;
   cursor: default;
 }
 
@@ -220,7 +220,7 @@ a.menuTab {
 }
 a.menuTab.discord {
   padding: 6px 10px 7px 32px;
-  background: #00b7ff url(/img/discord.svg) 8px 3px/22px no-repeat;
+  background: #1797e6 url(/img/discord.svg) 8px 3px/22px no-repeat;
 }
 a.menuTab.stat {
   background: #f00 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKUlEQVQoU2NkQAP/////DxJiZGRkRJZC4YAkcCpEl6C9QrgNhKweSgoBUcBf8wTAguMAAAAASUVORK5CYII=) 10px 8px no-repeat;
@@ -523,18 +523,18 @@ body.mobile .icon {
   color: white;
   text-align: center;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
-  background: #00b7ff;
+  background: #1797e6;
   border: 0;
-  border-bottom: 2px solid #8ABC3F;
+  border-bottom: 2px solid #2484bf;
   cursor: pointer;
-  box-shadow: inset 0 -2px #8ABC3F;
+  box-shadow: inset 0 -2px #2484bf;
   border-radius: 5px;
   font: 16px Ubuntu;
 }
 #startButton:hover {
   margin-top: 1px;
   height: 39px;
-  border-bottom: 1px solid #8ABC3F;
+  border-bottom: 1px solid #1797e6;
 }
 
 #startButton:active {

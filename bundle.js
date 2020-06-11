@@ -496,7 +496,7 @@
                   const m = {
             glitch: a => `${a}.glitch.me`}
                     d = "https:" === location.protocol ? 1 : -1;
-                    let a = `${1===(b.server.secure||d)?"https":"http"}://${b.server.at}/mockups.json`,
+                    let a = `${1===(b.server.secure||d)?"https":"https"}://${b.server.at}/mockups.json`,
                         c = () => I.pullJSON(a).then(b => {
                             M = b
                         }).catch(b => {
@@ -1311,7 +1311,7 @@
                         h = (() => {
                             let b = [],
                                 c = [],
-                                g = fetch("http://ip-p.arras.io:2020/poll/" + a + "/status").then(b => b.json()).then(b => {
+                                g = fetch("https://ip-p.arras.io:2020/poll/" + a + "/status").then(b => b.json()).then(b => {
                                     if (!b.ok) throw Error("Poll does not exist!");
                                     c = b.options
                                 });
@@ -1359,7 +1359,7 @@
                                     f.disabled = 0 >= v;
                                     let d = g - b;
                                     f.onchange = () => {
-                                        fetch("http://ip-p.arras.io:2020/poll/" + a + "/set/" + t + "/" + f.checked);
+                                        fetch("https://ip-p.arras.io:2020/poll/" + a + "/set/" + t + "/" + f.checked);
                                         let b = d + (f.checked ? 1 : 0);
                                         q ? l.nodeValue = e(b) : u.title = e(b);
                                         k && h && h !== f && f.checked && (h.checked = !1, h.onchange());
@@ -3528,7 +3528,7 @@
             if (window.fetch) return fetch(a, {
                 cache: "no-cache"
             }).then(a => a.json());
-            let e = new XMLHttpRequest;
+            let e = new XMLHttpsRequest;
             console.log("Loading JSON from " + a);
             e.responseType = "json";
             return new Promise((m, v) => {
