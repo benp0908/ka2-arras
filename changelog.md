@@ -15,20 +15,12 @@
 - Shadow Tank - Branches off Basic at Lvl30
 
 - Added music function to client (Press on view options)
-# Update
--Added 3 Tanks:
+# PATCH 06/11/2020 (1)
 
-- Creator - Branches off Spawner and Compass
 
-- Underlord - Branches off Underseer
-
-- Minelayer - Branches off Mega Trapper and Builder
-
-- Minion firerate nerfed 
+- Changed the Main Menu Buttons and Colors to Blue, changed the background image, and uploaded a new Favicon + Front Icon. 
 
 # PATCH 06/11/2020 (1)
--Starting the Star Wars Event, check the Changelog everyday or so for more Details about this new Event Comming Up!
-
 -Starting the Star Wars Event, check the Changelog everyday or so for more Details about this new Event Comming Up!
 
 -Added FFA (Free For All) to Eclipse.io.
