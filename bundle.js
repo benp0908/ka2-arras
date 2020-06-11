@@ -3403,11 +3403,13 @@
                     }, {
                         id: "a",
                         to: "Developer",
-                        remove: "2"
+                        remove: "9"
                     }, {
                         id: "t",
                         to: "2TDM",
                         end: "2TDM"
+                   
+
                     }]
                 ]
             ],
@@ -3440,16 +3442,7 @@
                     secure: -1,
                     prefer: !0,
                     featured: !0 
-                                            }, {
-                                                 visible: 0,
-                    id: "3",
-                    type: "",
-                    code: "dream_team-1-devserver",
-                    at: m.glitch("developer"),
-                    untrusted: !0,
-                    secure: -1,
-                    prefer: !0,
-                    featured: !0 
+                      
                                             }, {
 
                     visible: 0,
@@ -3481,6 +3474,7 @@
                     secure: -1,
                     prefer: !0,
                     featured: !0 
+                  
                
                   
                   
