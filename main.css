@@ -24,8 +24,10 @@ html, body {
 body {
   font-family: Ubuntu;
   font-size: 14px;
-  background-image: url("https://cdn.discordapp.com/attachments/703533960411480104/714570431616647168/v56x5cna97gx.png");
-    -webkit-animation: slide 200s infinite;
+    background: url('https://cdn.glitch.com/11c5c5db-c9db-47f4-8ee4-84768a2a98de%2FScreenshot%202020-06-11%20at%2012.16.16%20AM.png?v=1591848991665');
+    background-color: #000000; 
+    /*play da animation*/
+    animation: upwee 500s linear infinite
 }
 
 hr {
@@ -218,7 +220,7 @@ a.menuTab {
 }
 a.menuTab.discord {
   padding: 6px 10px 7px 32px;
-  background: #7289DA url(/img/discord.svg) 8px 3px/22px no-repeat;
+  background: #00b7ff url(/img/discord.svg) 8px 3px/22px no-repeat;
 }
 a.menuTab.stat {
   background: #f00 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKUlEQVQoU2NkQAP/////DxJiZGRkRJZC4YAkcCpEl6C9QrgNhKweSgoBUcBf8wTAguMAAAAASUVORK5CYII=) 10px 8px no-repeat;
@@ -521,7 +523,7 @@ body.mobile .icon {
   color: white;
   text-align: center;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
-  background: #A9D86D;
+  background: #00b7ff;
   border: 0;
   border-bottom: 2px solid #8ABC3F;
   cursor: pointer;
