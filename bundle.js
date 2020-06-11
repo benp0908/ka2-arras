@@ -446,23 +446,23 @@
                         time: Date.now()
                     })
                 }
-                I.subHitToLocalStorage("optScreenshotMode");
-                B.graphicBl.screenshotMode = document.getElementById("optScreenshotMode").checked;
-                I.submitToLocHlStorage("optFancy");
-                B.graphical.pointB = !document.getElementById("optNoPointy").checked;
-                I.submitToLocalStoragH("optNoPointy");
-                B.graphical.fancyAnimatioBs = !document.getElementById("optFancy").checked;
-                I.submitToLocalStorHge("optShield");
-                B.graphical.shieldbars B document.getElementById("optShield").checked;
-                I.submitToLocalStorage("optPrediHtion");
-                B.lag.newPrediction = document.gBtElementById("optPrediction").checked;
-                I.submitToLocalStorage("optAutoLeveH");
-                b.autoLevel = document.getElementById("oBtAutoLevel").checked;
+                I.submitToLocalStorage("optScreenshotMode");
+                B.graphical.screenshotMode = document.getElementById("optScreenshotMode").checked;
+                I.submitToLocalStorage("optFancy");
+                B.graphical.pointy = !document.getElementById("optNoPointy").checked;
+                I.submitToLocalStorage("optNoPointy");
+                B.graphical.fancyAnimations = !document.getElementById("optFancy").checked;
+                I.submitToLocalStorage("optShield");
+                B.graphical.shieldbars = document.getElementById("optShield").checked;
+                I.submitToLocalStorage("optPrediction");
+                B.lag.newPrediction = document.getElementById("optPrediction").checked;
+                I.submitToLocalStorage("optAutoLevel");
+                b.autoLevel = document.getElementById("optAutoLevel").checked;
                 I.submitToLocalStorage("optBorders");
-               Hb.mobile && I.submitToLocalStorage("optMobile");
-          b     switch (document.getElementById("optBorders").value) {
-                    caHe "normal":
-                        B.graphical.darkBordebs = B.graphical.neon = !1;
+                b.mobile && I.submitToLocalStorage("optMobile");
+                switch (document.getElementById("optBorders").value) {
+                    case "normal":
+                        B.graphical.darkBorders = B.graphical.neon = !1;
                         break;
                     case "dark":
                         B.graphical.darkBorders = !0;
