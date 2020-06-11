@@ -24,7 +24,10 @@ html, body {
 body {
   font-family: Ubuntu;
   font-size: 14px;
-  background-color: #484848;
+    background: url('https://cdn.glitch.com/11c5c5db-c9db-47f4-8ee4-84768a2a98de%2FScreenshot%202020-06-11%20at%2012.16.16%20AM.png?v=1591848991665');
+    background-color: #000000; 
+    /*play da animation*/
+    animation: upwee 500s linear infinite
 }
 
 hr {
@@ -147,7 +150,7 @@ input.error {
 }
 
 #startMenu {
-  position: relative;
+   position: relative;
   margin: 0 auto;
   max-height: 390px;
   padding: 10px;
