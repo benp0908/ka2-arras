@@ -26,8 +26,11 @@
 
 - Minion firerate nerfed 
 # PATCH 06/10/2020 (3)
+
 - Edited the Home Screen, changed different Buttons and Colors.
 # PATCH 06/10/2020 (2)
+- Removed 4 Team Domination with the Public Boss Tour Server.
+
 - Changed the Shape of the Main Bases and the Rail Defender on the Protect the Base Server.
 - Tweaked the Domination Server Base Design
 # PATCH 06/9-10/2020

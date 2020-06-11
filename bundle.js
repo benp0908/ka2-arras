@@ -3395,7 +3395,7 @@
                     }],
                     [{
                         id: "d",
-                        to: "4 Team Domination"
+                        to: "Boss Tour (Public Server)"
                     }, {
                         id: "m",
                         to: "Mothership",
@@ -3454,7 +3454,7 @@
                     id: "p",
                     type: "",
                     code: "dream_team-1-dev",
-                    at: m.glitch("domapp"),
+                    at: m.glitch("bosstour"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
