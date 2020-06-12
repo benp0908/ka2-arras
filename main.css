@@ -51,8 +51,8 @@ h1 {
 
 div.optionsHeader {
   display: block;
-  margin: 8px 0 4px;
-  font: bold 13px/1 Ubuntu;
+  margin: 8px 0 10px;
+  font: bold 10px/1 Ubuntu;
   color: #000000;
   text-align: center;
 }
