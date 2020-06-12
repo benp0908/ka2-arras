@@ -2922,7 +2922,7 @@
                                     t++;
                                     G(c, d, 100, 60);
                                     f.fillStyle = l.black;
-                                    G(c, d + 60, 100, 40);
+                                        G(c, d + 60, 100, 40);
                                     f.globalAlpha = 1;
                                     let r = C(n, A.color);
                                     n = M[n].position;
