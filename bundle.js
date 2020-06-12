@@ -2009,7 +2009,7 @@
                                 delta: c,
                                 latency: d
                             });
-                            if (10 > S.length) setTimeout(() => f.talk("S", Date.now() - P - Q), 75), b.message = `Tip: Beware of Safety - ${1*S.length}/10`;
+                            if (10 > S.length) setTimeout(() => f.talk("S", Date.now() - P - Q), 75), b.message = `Syncing clocks, please do not tab away! Progress: ${1*S.length}/10`;
                             else {
                                 S.sort((b, a) => b.latency - a.latency);
                                 let a = S[Math.floor(S.length / 2)].latency,
@@ -2811,14 +2811,14 @@
                             L(c, c + 330, d + a / 2, a - 3 + B.graphical.barChunk, l.black);
                             L(c, c + 330, d + a / 2, a - 3, l.grey);
                             L(c, c + 330 * A.__s.getProgress(), d + a / 2, a - 3.5, l.gold);
-                            S.draw("Level " + A.__s.getLevel() + " " + M[A.type].name, c + 165, d + a / 2, a - 4, l.guiwhite, "center", !0);
+                            S.draw("Tank Level " + A.__s.getLevel() + " " + M[A.type].name, c + 165, d + a / 2, a - 4, l.guiwhite, "center", !0);
                             a = 14;
                             d -= a + 4;
                             L(c + 33, c + 297, d + a / 2, a - 3 + B.graphical.barChunk, l.black);
                             L(c + 33, c + 297,
                                 d + a / 2, a - 3, l.grey);
                             L(c + 33, c + 330 * (.1 + .8 * (ma ? Math.min(1, A.__s.getScore() / ma) : 1)), d + a / 2, a - 3.5, l.green);
-                            E.draw("Score: " + I.formatLargeNumber(A.__s.getScore()), c + 165, d + a / 2, a - 2, l.guiwhite, "center", !0);
+                            E.draw("Tank Score: " + I.formatLargeNumber(A.__s.getScore()), c + 165, d + a / 2, a - 2, l.guiwhite, "center", !0);
                             f.lineWidth = 4;
                             O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
                         }
@@ -3075,10 +3075,10 @@
                     let t = M[A.type].position,
                         q = 140 / t.axis;
                     ba(b.screenWidth / 2 - q * t.middle.x * .707 - 190 - 70, b.screenHeight / 2 - 35 + q * t.middle.x * .707 - 10, u, 1.5, 1, .5 * q / u.realSize, -Math.PI / 4, !0);
-                    a.draw("well now you're livingn't", d, h - 80, 8, l.guiwhite, "center");
-                    e.draw("Level " + A.__s.getLevel() + " " + M[A.type].name, d - 170, h - 30, 24, l.guiwhite);
-                    c.draw("Final score: " + I.formatLargeNumber(Math.round(b.finalScore.get())), d - 170, h + 25, 50, l.guiwhite);
-                    f.draw("\u231a Survived for " + I.timeForHumans(Math.round(b.finalLifetime.get())), d - 170, h + 55, 16, l.guiwhite);
+                    a.draw("How much wood can a woodchuck chuck?", d, h - 80, 8, l.guiwhite, "center");
+                    e.draw("Final Level " + A.__s.getLevel() + " " + M[A.type].name, d - 170, h - 30, 24, l.guiwhite);
+                    c.draw("Final Score: " + I.formatLargeNumber(Math.round(b.finalScore.get())), d - 170, h + 25, 50, l.guiwhite);
+                    f.draw("\u231a Lived for " + I.timeForHumans(Math.round(b.finalLifetime.get())), d - 170, h + 55, 16, l.guiwhite);
                     k.draw(n(), d - 170, h + 77, 16, l.guiwhite);
                     v.draw(r(),
                         d - 170, h + 99, 16, l.guiwhite);
