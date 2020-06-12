@@ -3355,10 +3355,8 @@
                         dynamic: "word"
                     }],
                     [{
-                   id: "d",
-                        to: "Unlimate Domination",
-                        delay: !0,
-                        remove: "d"
+                        id: "w",
+                        dynamic: "words"
 
                     }],
                     [{
@@ -3471,7 +3469,6 @@
                     secure: -1,
                     prefer: !0,
                     featured: !0 
-          
                          
                 
                     
