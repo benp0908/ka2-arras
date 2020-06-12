@@ -5,16 +5,6 @@
 - Bases can no longer be pushed
 - Bots are now Smasher-branch tanks to curb lag
 - Testbed Token is now public! Visit my Discord server to claim!
-# Update
-- Added 3 New Tanks:
-
-- Hornet - Branches off Gunner and Tri-Angle
-
-- Typhoon - Branches off Cyclone
-
-- Shadow Tank - Branches off Basic at Lvl30
-
-- Added music function to client (Press on view options)
 # PATCH 06/11/2020 (1)
 
 
