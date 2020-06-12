@@ -3355,8 +3355,10 @@
                         dynamic: "word"
                     }],
                     [{
-                        id: "w",
-                        dynamic: "words"
+                   id: "d",
+                        to: "Unlimate Domination",
+                        delay: !0,
+                        remove: "d"
 
                     }],
                     [{
@@ -3465,6 +3467,16 @@
                     type: "2DTM",
                     code: "dream_team-1-t",
                     at: m.glitch("2tdm-server"),
+                    untrusted: !0,
+                    secure: -1,
+                    prefer: !0,
+                    featured: !0 
+                                  }, {
+                    visible: 0,
+                    id: "w",
+                    type: "words",
+                    code: "dream_team-1-w",
+                    at: m.glitch("domapp"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
