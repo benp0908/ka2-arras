@@ -3471,16 +3471,7 @@
                     secure: -1,
                     prefer: !0,
                     featured: !0 
-                                  }, {
-                    visible: 0,
-                    id: "w",
-                    type: "words",
-                    code: "dream_team-1-w",
-                    at: m.glitch("domapp"),
-                    untrusted: !0,
-                    secure: -1,
-                    prefer: !0,
-                    featured: !0 
+          
                          
                 
                     
