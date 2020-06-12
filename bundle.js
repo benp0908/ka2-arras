@@ -772,20 +772,21 @@
             aipDisplayTag.display("arras-io_336x280")
         }), window.adServiceMode = "aip") : ((adsbygoogle = window.adsbygoogle || []).push({}), window.adServiceMode = "google");*/
         var B = {
-            graphical: {
-                screenshotMode: !1,
-                borderChunk: 6,
-                barChunk: 5,
-                mininumBorderChunk: 3,
-                compensationScale: 1.114,
-                inversedRender: !0,
-                darkBorders: !1,
-                fancyAnimations: !0,
-                colors: "normal",
-                pointy: !0,
-                fontSizeBoost: 1,
-                shieldbars: !1,
-                neon: !1
+     graphical: {
+                    screenshotMode: !1,
+                    borderChunk: 6,
+                    barChunk: 5,
+                    mininumBorderChunk: 3,
+                    compensationScale: 1.114,
+                    inversedRender: !0,
+                    darkBorders: !1,
+                    fancyAnimations: !0,
+                    colors: "normal",
+                    pointy: !0,
+                    sharp: !1,
+                    fontSizeBoost: 1,
+                    shieldbars: !1,
+                    neon: !1
             },
             gui: {
                 expectedMaxSkillLevel: 9
