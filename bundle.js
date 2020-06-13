@@ -2099,12 +2099,12 @@
                     V.logEvent("disconnect");
                     f.open = !1;
                     b.disconnected = !0;
-                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "This Server is not Opened to the Public, if this is the Developer Server, that Server is not available from Public View."));
+                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "The Server has been Disconnected for an unknown reason. Check if the Server is Restarting the game."));
                     console.warn("WebSocket closed: ", a)
                 };
                 f.onerror = function(a) {
                     console.warn("WebSocket clobbing", a);
-                    b.message = "The Server might be being edited, please try again later while the Server Updates.";
+                    b.message = "The Server may not be open to the Public or Unlocked by the Developer yet. Check, is the Server down?";
                     b.isInGame = !1
                 };
                 return f
@@ -3423,7 +3423,7 @@
                     id: "m",
                     type: "FFA",
                     code: "dream_team-1-gt",
-                    at: m.glitch("ffa-eclipse"),
+                    at: "localhost:5000",
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
