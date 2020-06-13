@@ -15,6 +15,15 @@
 - Shadow Tank - Branches off Basic at Lvl30
 
 - Added music function to client (Press on view options)
+
+# PATCH 06/13/2020 (1)
+
+- Fixed Arena Closer Function.
+- FFA is now Back Up!
+
+- Reseted all Games and Closed FFA for fixes.
+
+
 # PATCH 06/11/2020 (1)
 
 
