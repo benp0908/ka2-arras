@@ -3423,7 +3423,7 @@
                     id: "m",
                     type: "FFA",
                     code: "dream_team-1-gt",
-                    at: "localhost:5000",
+                    at: "ffa-eclipse",
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
