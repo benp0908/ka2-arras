@@ -2099,7 +2099,7 @@
                     V.logEvent("disconnect");
                     f.open = !1;
                     b.disconnected = !0;
-                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "The Server has been Disconnected for an unknown reason. Check if the Server is Restarting the game."));
+                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "The Arena may be be Closed, please try again in 1 minute."));
                     console.warn("WebSocket closed: ", a)
                 };
                 f.onerror = function(a) {
