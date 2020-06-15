@@ -16,6 +16,10 @@
 
 - Added music function to client (Press on view options)
 
+# PATCH 06/15/2020 (1)
+
+- Locked TESTBED Usuage.
+-Fixing up Protect the Base Server Bugs and Glitches.
 # PATCH 06/13/2020 (1)
 
 - Fixed Arena Closer Function.
