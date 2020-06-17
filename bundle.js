@@ -4071,7 +4071,7 @@
                                                 break;
                                             case "recording":
                                                 a.messages.push({
-                                                    text: "Recording Session Ending. Saving ...",
+                                                    text: "Recording Session Ending. Saving File...",
                                                     status: 2,
                                                     alpha: 0,
                                                     time: Date.now()
@@ -4088,7 +4088,7 @@
                                                 let k = URL.createObjectURL(a),
                                                     q = document.createElement("a");
                                                 q.style.display = "none";
-                                                q.setAttribute("download", "video.webm");
+                                                q.setAttribute("download", "video.mp4");
                                                 q.setAttribute("href",
                                                     k);
                                                 document.body.appendChild(q);
@@ -4099,7 +4099,7 @@
                                                 q.click()
                                             };
                                             a.messages.push({
-                                                text: "Recorder initiated and started!",
+                                                text: "Recorder has been Started!",
                                                 status: 2,
                                                 alpha: 0,
                                                 time: Date.now()
