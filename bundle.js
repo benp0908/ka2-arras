@@ -2862,15 +2862,15 @@
                             if (B.graphical.screenshotMode) W[6].draw("Arras", h + 200, q - 2, 15, l.guiwhite, "right");
                             else {
                                 if (b.showDebug) { //Debug names
-                                    W[6].draw("Eclipse.io Debug", h + 200, q - 84 - 2, 15, l.ice, "right");
+                                    W[6].draw("Eclipse.io Debug", h + 200, q - 84 - 2, 15, l.blue, "right");
                                     let b = r.getPeriodicAverage();
                                     W[5].draw("Tank Speed: " + w.toFixed(2) + " gu/s" + (b && .005 <= b ? ` (${b.toFixed(2)} gu/s)` : ""), h + 200, q - 70, 10, l.guiwhite, "right");
                                     W[4].draw("Prediction: " + d.toFixed(3), h + 200, q - 56, 10, l.guiwhite, "right");
                                     W[3].draw("Update Rate: " + K.updatetime + "Hz", h + 200, q -
                                         42, 10, l.guiwhite, "right")
                                 } else W[6].draw("Eclipse.io", h + 200, q - 42 - 2, 15, l.blue, "right");
-                                W[2].draw("Client Speed: " + K.rendertime + " FPS", h + 200, q - 28, 10, 10 < K.rendertime ? l.guiwhite : l.orange, "right");
-                                W[1].draw("Server Speed: " + (100 * A.fps).toFixed(2) + "%", h + 200, q - 14, 10, 1 === A.fps ? l.guiwhite : l.orange, "right");
+                                W[2].draw("Client FPS: " + K.rendertime + " FPS", h + 200, q - 28, 10, 10 < K.rendertime ? l.green : l.orange, "right");
+                                W[1].draw("Server Speed: " + (100 * A.fps).toFixed(2) + "%", h + 200, q - 14, 10, 1 === A.fps ? l.green : l.orange, "right");
                                 W[0].draw(m.toFixed(1) + " ms  " + b.server.code + " :" + b.server.type + ":", h + 200, q, 10, l.guiwhite, "right")
                             }
                         }
@@ -2936,12 +2936,12 @@
                                     G(c, d, 100, 100, !0);
                                     0 !== ++v % 5 || b.mobile ? c += 114 * a : (c = g, d += 114)
                                 });
-                                let n = ra("Don't Upgrade", 11) + 10,
+                                let n = ra("Ignore Upgrades", 11) + 10,
                                     r = (h + 100 + 14 + g - 15) / 2,
                                     m = k + 100 + 14;
                                 L(r - n / 2, r + n / 2, m + 7, 14 + B.graphical.barChunk, l.black);
                                 L(r - n / 2, r + n / 2, m + 7, 14, l.white);
-                                fa.draw("Don't Upgrade", r, m + 7, 12, l.guiwhite, "center", !0);
+                                fa.draw("Ignore Upgrades", r, m + 7, 12, l.guiwhite, "center", !0);
                                 b.clickables.skipUpgrades.place(0, (r - n / 2) * u, m * u, n * u, 14 * u)
                             } else b.clickables.upgrade.hide(), b.clickables.skipUpgrades.hide()
                         }
@@ -3122,7 +3122,7 @@
                 let f = c[Math.floor(Math.random() * c.length)];
                 return () => {
                     F(l.white, .5);
-                    a.draw("Preparing, please do not tab away!...", b.screenWidth / 2, b.screenHeight / 2, 30, l.guiwhite, "center");
+                    a.draw("Connecting to Server...", b.screenWidth / 2, b.screenHeight / 2, 30, l.guiwhite, "center");
                     e.draw(b.message, b.screenWidth / 2, b.screenHeight / 2 + 30, 15, l.lgreen, "center");
                     e.draw(f, b.screenWidth / 2, b.screenHeight / 2 + 75, 15, l.guiwhite, "center")
                 }
@@ -4071,7 +4071,7 @@
                                                 break;
                                             case "recording":
                                                 a.messages.push({
-                                                    text: "Recorder stopped! Saving file...",
+                                                    text: "Recording Session Ending. Saving ...",
                                                     status: 2,
                                                     alpha: 0,
                                                     time: Date.now()
