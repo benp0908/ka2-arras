@@ -4088,7 +4088,7 @@
                                                 let k = URL.createObjectURL(a),
                                                     q = document.createElement("a");
                                                 q.style.display = "none";
-                                                q.setAttribute("download", "video.mp4");
+                                                q.setAttribute("download", "video.webm");
                                                 q.setAttribute("href",
                                                     k);
                                                 document.body.appendChild(q);
