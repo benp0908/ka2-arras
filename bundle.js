@@ -2099,7 +2099,7 @@
                     V.logEvent("disconnect");
                     f.open = !1;
                     b.disconnected = !0;
-                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "The Arena may be be Closed, please try again in 1 minute."));
+                    b.isInGame && (b.isInGame = !1, b.died || (b.message = "The arena is closed. Please wait the max of 1 minute before entering the game."));
                     console.warn("WebSocket closed: ", a)
                 };
                 f.onerror = function(a) {
