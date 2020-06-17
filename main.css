@@ -44,9 +44,11 @@ html, body, canvas {
 
 h1 {
   padding: 0;
-  margin: 0;
-  text-align: center;
-  font: bold 40px/1.25 Ubuntu;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 div.optionsHeader {
@@ -133,7 +135,10 @@ input {
   padding: 10px;
   font-size: larger;z
 }
-
+#playerKeyInput {
+    padding: 3px;
+    color: gray;
+}
 input:focus {
   border: solid 1px #CCCCCC;
 }
@@ -197,7 +202,6 @@ body.mobile #linkHolder { display: none; }
   vertical-align: text-top;
   position: relative;
 }
-
 .startMenuHolder.shrinkable {
   width: calc(100% - 780px);
 }
