@@ -1,20 +1,16 @@
 # Update
 - Some tanks are now unlocked at tier 4 (Lvl60)
 - Added a handful of Spawner-branch tanks
-# Update
-- Bases can no longer be pushed
-- Bots are now Smasher-branch tanks to curb lag
-- Testbed Token is now public! Visit my Discord server to claim!
-# Update
-- Added 3 New Tanks:
+# PATCH 06/25/2020 (1)
+- 
+- Also added a message on when the Attackers Spawn. This Message will show the Attacker Type and How many will Spawn Each Wave.
+- Added a Arena Closing Message for Protect the Base when the Game Session has Ended.
+# PATCH 06/24/2020 (1)
 
-- Hornet - Branches off Gunner and Tri-Angle
 
-- Typhoon - Branches off Cyclone
+- Nerfed up the Arena Closer Reload and Speed.
 
-- Shadow Tank - Branches off Basic at Lvl30
-
-- Added music function to client (Press on view options)
+- There will be 4 Main Bases now on the Protect the Base Server. The Rail Defender will now sit in the middle of the map.
 
 # PATCH 06/15/2020 (1)
 
