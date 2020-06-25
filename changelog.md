@@ -1,11 +1,14 @@
-# Update
-- Some tanks are now unlocked at tier 4 (Lvl60)
-- Added a handful of Spawner-branch tanks
+
 # PATCH 06/25/2020 (1)
-- 
+- Planning to temporarily Close down Protect the Base for major Updates. This will occur during 6/26/2020 to 6/29/2020.
+
+- Renamed the Rail Defender Label from "Base" to Rail Defender
 - Also added a message on when the Attackers Spawn. This Message will show the Attacker Type and How many will Spawn Each Wave.
 - Added a Arena Closing Message for Protect the Base when the Game Session has Ended.
+- Changed the Loading Screen Message. 
+
 # PATCH 06/24/2020 (1)
+- Recolored the Client Speed and the Server Speed checker. When color Green means that the following mechanic is running smoothly and normally.
 
 
 - Nerfed up the Arena Closer Reload and Speed.
@@ -37,6 +40,8 @@
 
 - Edited the Home Screen, changed different Buttons and Colors.
 # PATCH 06/10/2020 (2)
+- Tweaked Rija and the Launcher-88 and fixed major lag issues.
+
 - Removed 4 Team Domination with the Public Boss Tour Server.
 
 - Changed the Shape of the Main Bases and the Rail Defender on the Protect the Base Server.
