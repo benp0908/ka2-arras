@@ -1,4 +1,12 @@
 
+# PATCH 06/26/2020 (1)
+- Planning to temporarily Close down Protect the Base for major Updates. This will occur during 6/26/2020 to 6/29/2020.
+
+- Renamed the Rail Defender Label from "Base" to Rail Defender
+- Also added a message on when the Attackers Spawn. This Message will show the Attacker Type and How many will Spawn Each Wave.
+- Added a Arena Closing Message for Protect the Base when the Game Session has Ended.
+- Changed the Loading Screen Message. 
+
 # PATCH 06/25/2020 (1)
 - Planning to temporarily Close down Protect the Base for major Updates. This will occur during 6/26/2020 to 6/29/2020.
 
