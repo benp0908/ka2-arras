@@ -1,4 +1,5 @@
 # PATCH 06/27/2020 (1)
+- (UPDATE 4 | Removed Vulcan because it was Broken, currently trying to fix the Vulcan.
 - (UPDATE 4 | Added the Propeller upgraded from the Basic.
 
 - (UPDATE 3 | Protect the Base): Game kept disconnecting during lags, removed 12 and subtracted 1.
