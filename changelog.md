@@ -1,5 +1,7 @@
 # PATCH 06/27/2020 (1)
-- (UPDATE 2 | Protect the Base): Game kept disconnecting during lags, removed 12 and subtracted 1.
+- (UPDATE 4 | Added the Propeller upgraded from the Basic.
+
+- (UPDATE 3 | Protect the Base): Game kept disconnecting during lags, removed 12 and subtracted 1.
 
 - (UPDATE 2 | Protect the Base): Renamed Protect the Base to "Defender Mode."
 -(UPDATE 1 | Protect the Base): Renamed the Original Railgun to the Railgun Unlimate, because it constantly shoots!
