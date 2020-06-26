@@ -3367,7 +3367,7 @@
                     }],
                     [{
                         id: "f",
-                        to: "Protect the Base"
+                        to: "Defender Mode"
                     }, {
                         id: "",
                         to: "2 Team",

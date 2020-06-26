@@ -1,16 +1,21 @@
+# PATCH 06/27/2020 (1)
+- (UPDATE 2 | Protect the Base): Game kept disconnecting during lags, removed 12 and subtracted 1.
+
+- (UPDATE 2 | Protect the Base): Renamed Protect the Base to "Defender Mode."
+-(UPDATE 1 | Protect the Base): Renamed the Original Railgun to the Railgun Unlimate, because it constantly shoots!
+
 
 # PATCH 06/26/2020 (1)
 - Planning to temporarily Close down Protect the Base for major Updates. This will occur during 6/26/2020 to 6/29/2020.
 
-- Renamed the Rail Defender Label from "Base" to Rail Defender
-- Also added a message on when the Attackers Spawn. This Message will show the Attacker Type and How many will Spawn Each Wave.
-- Added a Arena Closing Message for Protect the Base when the Game Session has Ended.
-- Changed the Loading Screen Message. 
+- Renamed the Rail Defender Label from "Base" to "Rail Defender"
+- (UPDATE 2 | Protect the Base): Renamed Protect the Base to "Defender
+-(UPDATE 1 | Protect the Base): Renamed the Original Railgun to the Railgun Unlimate, because it constantly shoots!
 
 # PATCH 06/25/2020 (1)
 - Planning to temporarily Close down Protect the Base for major Updates. This will occur during 6/26/2020 to 6/29/2020.
 
-- Renamed the Rail Defender Label from "Base" to Rail Defender
+- Renamed the Rail Defender Label from "Base" to il Defender"
 - Also added a message on when the Attackers Spawn. This Message will show the Attacker Type and How many will Spawn Each Wave.
 - Added a Arena Closing Message for Protect the Base when the Game Session has Ended.
 - Changed the Loading Screen Message. 
@@ -29,7 +34,8 @@
 -Fixing up Protect the Base Server Bugs and Glitches.
 # PATCH 06/13/2020 (1)
 
-- Fixed Arena Closer Function.
+- Replaced the Original Arena Closers with Twin Closers to be extra.
+- Fixed Arena Closer Name Function.
 - FFA is now Back Up!
 
 - Reseted all Games and Closed FFA for fixes.
