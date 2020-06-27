@@ -1,4 +1,5 @@
 # PATCH 06/28/2020 (1)
+- Replaced the Portal Mothership Background to an Arena Closer one. Also added an animation to it..
 
 - (UPDATE 5 | Defender Mode) Taking off Developer mode so Public users will not be able to access TESTBED Tanks on Defender Mode.
 
