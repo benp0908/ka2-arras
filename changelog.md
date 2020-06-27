@@ -1,3 +1,11 @@
+# PATCH 06/28/2020 (1)
+- (UPDATE 5 |  Defender Mode) Taking off Developer mode so Public users will not be able to access TESTBED Tanks on Defender Mode.
+
+- Got a new domain name and renamed the game title.
+
+
+
+
 # PATCH 06/27/2020 (1)
 - (UPDATE 4 | Removed Vulcan because it was Broken, currently trying to fix the Vulcan.
 - (UPDATE 4 | Added the Propeller upgraded from the Basic.
@@ -52,7 +60,7 @@
 # PATCH 06/11/2020 (1)
 -Starting the Star Wars Event, check the Changelog everyday or so for more Details about this new Event Comming Up!
 
--Added FFA (Free For All) to Eclipse.io.
+-Added FFA (Free For All).
 # PATCH 06/10/2020 (3)
 
 - Edited the Home Screen, changed different Buttons and Colors.
