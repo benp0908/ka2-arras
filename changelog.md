@@ -1,4 +1,11 @@
 # PATCH 06/28/2020 (1)
+
+- (UPDATE 8 | Defender Mode) Nerfed up the Rail Defenders Health because the Attackers can Easily Destroy it.
+
+- (UPDATE 7 | Defender Mode) Added the Twinception upgraded from the Auto-Twin.
+
+- (UPDATE 6 | Defender Mode) Added the Auto-Twin upgraded from the Twin.
+
 - Replaced the Portal Mothership Background to an Arena Closer one. Also added an animation to it..
 
 - (UPDATE 5 | Defender Mode) Taking off Developer mode so Public users will not be able to access TESTBED Tanks on Defender Mode.
