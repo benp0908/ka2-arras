@@ -1,5 +1,7 @@
 # PATCH 06/28/2020 (1)
 
+- (UPDATE 9 | Defender Mode) Added the Auto-Railgun.
+
 - (UPDATE 8 | Defender Mode) Nerfed up the Rail Defenders Health because the Attackers can Easily Destroy it.
 
 - (UPDATE 7 | Defender Mode) Added the Twinception upgraded from the Auto-Twin.

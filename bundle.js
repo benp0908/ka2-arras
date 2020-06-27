@@ -2862,13 +2862,13 @@
                             if (B.graphical.screenshotMode) W[6].draw("Arras", h + 200, q - 2, 15, l.guiwhite, "right");
                             else {
                                 if (b.showDebug) { //Debug names
-                                    W[6].draw("Eclipse.io Debug", h + 200, q - 84 - 2, 15, l.blue, "right");
+                                    W[6].draw("Game Status", h + 200, q - 84 - 2, 15, l.blue, "right");
                                     let b = r.getPeriodicAverage();
                                     W[5].draw("Tank Speed: " + w.toFixed(2) + " gu/s" + (b && .005 <= b ? ` (${b.toFixed(2)} gu/s)` : ""), h + 200, q - 70, 10, l.guiwhite, "right");
                                     W[4].draw("Prediction: " + d.toFixed(3), h + 200, q - 56, 10, l.guiwhite, "right");
                                     W[3].draw("Update Rate: " + K.updatetime + "Hz", h + 200, q -
                                         42, 10, l.guiwhite, "right")
-                                } else W[6].draw("Eclipse.io", h + 200, q - 42 - 2, 15, l.blue, "right");
+                                } else W[6].draw("KA2-arras.glitch.me", h + 200, q - 42 - 2, 15, l.blue, "right");
                                 W[2].draw("Client FPS: " + K.rendertime + " FPS", h + 200, q - 28, 10, 10 < K.rendertime ? l.green : l.orange, "right");
                                 W[1].draw("Server Speed: " + (100 * A.fps).toFixed(2) + "%", h + 200, q - 14, 10, 1 === A.fps ? l.green : l.orange, "right");
                                 W[0].draw(m.toFixed(1) + " ms  " + b.server.code + " :" + b.server.type + ":", h + 200, q, 10, l.guiwhite, "right")
