@@ -1,6 +1,14 @@
+# PATCH 06/29/2020 (1)
+
+- Removed FFA (Free for All) and added a Developer Server. (Not Available to the Public, no BT Token.)
+
+- (UPDATE 11 | Defender Mode) Added the Minishot upgraded from the Basic.
+- (UPDATE 10 | Defender Mode) Moved the Railgun Unlimate from TIER 1 Basic to TIER 2 Twin.
+
+
 # PATCH 06/28/2020 (1)
 
-- (UPDATE 9 | Defender Mode) Added the Auto-Railgun.
+- (UPDATE 9 | Defender Mode) Added the Auto-Railgun upgraded from the Railgun Unlimate.
 
 - (UPDATE 8 | Defender Mode) Nerfed up the Rail Defenders Health because the Attackers can Easily Destroy it.
 
