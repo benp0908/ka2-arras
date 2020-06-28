@@ -2104,7 +2104,7 @@
                 };
                 f.onerror = function(a) {
                     console.warn("WebSocket clobbing", a);
-                    b.message = "The Server may not be open to the Public or Unlocked by the Developer yet. Check, is the Server down?";
+                    b.message = "The Server may not be open to the Public or Released to the Public right now. Also Check, is the Server down?";
                     b.isInGame = !1
                 };
                 return f
@@ -3132,7 +3132,7 @@
                     e = w();
                 return () => {
                     F(T(l.red, l.guiblack, .3), .25);
-                    a.draw("\ud83d\udc80 Session Ended: Disconnected \ud83d\udc80", b.screenWidth / 2, b.screenHeight / 2, 30, l.guiwhite, "center");
+                    a.draw("\ud83d\udc80 Disconnected \ud83d\udc80", b.screenWidth / 2, b.screenHeight / 2, 30, l.guiwhite, "center");
                     e.draw(b.message, b.screenWidth /
                         2, b.screenHeight / 2 + 30, 15, l.orange, "center")
                 }
