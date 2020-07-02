@@ -3405,7 +3405,7 @@
                     }, {
                         id: "t",
                         to: "2TDM",
-                        end: "2TDM"
+                        end: "Experinmental Mode"
                     }]
                 ]
             ],
@@ -3464,7 +3464,7 @@
                     id: "c",
                     type: "2DTM",
                     code: "dream_team-1-t",
-                    at: m.glitch("2tdm-server"),
+                    at: m.glitch("testexperinmental"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,

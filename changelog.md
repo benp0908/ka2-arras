@@ -1,40 +1,30 @@
+# PATCH 07/1/2020 (1)
+
+- Added an Experimental mode for the New Server that will probably replace 4TDM.
+
 # PATCH 06/29/2020 (1)
 
 - Removed FFA (Free for All) and added a Developer Server. (Not Available to the Public, no BT Token.)
 
-- (UPDATE 11 | Defender Mode) Added the Minishot upgraded from the Basic.
-- (UPDATE 10 | Defender Mode) Moved the Railgun Unlimate from TIER 1 Basic to TIER 2 Twin.
 
 
 # PATCH 06/28/2020 (1)
 
-- (UPDATE 9 | Defender Mode) Added the Auto-Railgun upgraded from the Railgun Unlimate.
 
-- (UPDATE 8 | Defender Mode) Nerfed up the Rail Defenders Health because the Attackers can Easily Destroy it.
-
-- (UPDATE 7 | Defender Mode) Added the Twinception upgraded from the Auto-Twin.
-
-- (UPDATE 6 | Defender Mode) Added the Auto-Twin upgraded from the Twin.
-
-- Replaced the Portal Mothership Background to an Arena Closer one. Also added an animation to it..
-
-- (UPDATE 5 | Defender Mode) Taking off Developer mode so Public users will not be able to access TESTBED Tanks on Defender Mode.
 
 - Got a new domain name and renamed the game title.
 
 # PATCH 06/27/2020 (1)
 
 - (UPDATE 4 | Removed Vulcan because it was Broken, currently trying to fix the Vulcan.
-- (UPDATE 4 | Added the Propeller upgraded from the Basic.
 
-- (UPDATE 3 | Protect the Base): Game kept disconnecting during lags, removed 12 and subtracted 1.
+- Game kept disconnecting during lags, removed 12 and subtracted 1.
 
 - (UPDATE 2 | Protect the Base): Renamed Protect the Base to "Defender Mode."
-  -(UPDATE 1 | Protect the Base): Renamed the Original Railgun to the Railgun Unlimate, because it constantly shoots!
+  -Renamed the Original Railgun to the Railgun Unlimate, because it constantly shoots!
 
 # PATCH 06/26/2020 (1)
 
-- Planning to temporarily Close down Protect the Base for major Updates. This will occur during 6/26/2020 to 6/29/2020.
 
 - Renamed the Rail Defender Label from "Base" to "Rail Defender"
 - (UPDATE 2 | Protect the Base): Renamed Protect the Base to "Defender
