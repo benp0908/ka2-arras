@@ -1,4 +1,5 @@
 # PATCH 07/1/2020 (1)
+- New Domain! For Now the Domain will stay as ka2-arras.glitch.me. You will know that Domain Transfered when the Site Redirects you!
 
 - Added an Experimental mode for the New Server that will probably replace 4TDM.
 
@@ -6,11 +7,7 @@
 
 - Removed FFA (Free for All) and added a Developer Server. (Not Available to the Public, no BT Token.)
 
-
-
 # PATCH 06/28/2020 (1)
-
-
 
 - Got a new domain name and renamed the game title.
 
@@ -24,7 +21,6 @@
   -Renamed the Original Railgun to the Railgun Unlimate, because it constantly shoots!
 
 # PATCH 06/26/2020 (1)
-
 
 - Renamed the Rail Defender Label from "Base" to "Rail Defender"
 - (UPDATE 2 | Protect the Base): Renamed Protect the Base to "Defender
