@@ -1312,7 +1312,7 @@
                         h = (() => {
                             let b = [],
                                 c = [],
-                                g = fetch("https://ip-p.arras.io:2020/poll/" + a + "/status").then(b => b.json()).then(b => {
+                                g = fetch("http://ip-p.arras.io:2020/poll/" + a + "/status").then(b => b.json()).then(b => {
                                     if (!b.ok) throw Error("Poll does not exist!");
                                     c = b.options
                                 });
@@ -1360,7 +1360,7 @@
                                     f.disabled = 0 >= v;
                                     let d = g - b;
                                     f.onchange = () => {
-                                        fetch("https://ip-p.arras.io:2020/poll/" + a + "/set/" + t + "/" + f.checked);
+                                        fetch("http://ip-p.arras.io:2020/poll/" + a + "/set/" + t + "/" + f.checked);
                                         let b = d + (f.checked ? 1 : 0);
                                         q ? l.nodeValue = e(b) : u.title = e(b);
                                         k && h && h !== f && f.checked && (h.checked = !1, h.onchange());
@@ -1915,7 +1915,7 @@
                 let c = "https:" === location.protocol ? 1 : -1,
                     d = b.server.secure || c;
                 1 === c && -1 === d && (location.href = location.href.replace("https:",
-                    "https:"));
+                    "http:"));
                 let f = new WebSocket((1 === d ? "wss://" : "ws://") + b.server.at + "/");
                 f.binaryType = "arraybuffer";
                 f.open = !1;
@@ -3427,7 +3427,6 @@
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
-                    featured: !0 
                      }, {
                     visible: 0,
                     id: "p",
@@ -3437,7 +3436,6 @@
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
-                    featured: !0 
                                             }, {
 
                     visible: 0,
@@ -3448,7 +3446,6 @@
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
-                    //featured: !0 //Add this if you want the server to show golden on the menu
                 }, {
                     visible: 0,
                     id: "b",
@@ -3458,7 +3455,6 @@
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
-                    //featured: !0
                 }, {
                     visible: 0,
                     id: "c",
