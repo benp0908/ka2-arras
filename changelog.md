@@ -1,7 +1,14 @@
-# PATCH 07/1/2020 (1)
-- New Domain! For Now the Domain will stay as ka2-arras.glitch.me. You will know that Domain Transfered when the Site Redirects you!
+# PATCH 07/5/2020 (1)
 
-- Added an Experimental mode for the New Server that will probably replace 4TDM.
+-The 4th of July TESTBED Event has Ended.
+
+# PATCH 07/4/2020 (1)
+- Hope Everyone Enjoys this New Update! This will Close tomorrow at 12:00 AM.
+- Happy 4th of July! Added a 1 day TESTBED event!
+
+# PATCH 07/1/2020 (1)
+
+- Added an Experimental mode for the New Server that will probably replace 2TDM.
 
 # PATCH 06/29/2020 (1)
 
