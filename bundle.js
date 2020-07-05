@@ -1,41 +1,4 @@
-// My anti-hack system (like in arraz-io.glitch.me)
-  // No Hacks, lol
-  document.addEventListener('keydown', function() {
-  if (event.keyCode == 123) {
-    window.location.href = "http://arras.io/";
-// Simulate an HTTP redirect:
-window.location.replace("https://arras.io/");
-    alert("This function has been disabled to prevent you from stealing my code!");
-    return false;
-  } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
-    window.location.href = "http://arras-7.glitch.me";
-// Simulate an HTTP redirect:
-window.location.replace("https://arras.io/");
-    alert("This function has been disabled to prevent you from stealing my code!");
-    return false;
-  } else if (event.ctrlKey && event.keyCode == 85) {
-    window.location.href = "http://arras-7.glitch.me";
-// Simulate an HTTP redirect:
-window.location.replace("https://arras.io/");
-    alert("This function has been disabled to prevent you from stealing my code!");
-    return false;
-  }
-}, true);
 
-if (document.addEventListener) {
-  document.addEventListener('contextmenu', function(e) {
-  
-    e.preventDefault();
-  }, false);
-} else {
-  document.attachEvent('oncontextmenu', function() {
-    window.location.href = "http://arras.io/";
-// Simulate an HTTP redirect:
-window.location.replace("https://arras.io/");
-    alert("😞 This game took a lot of time to make and effort, please try not to steal my code! 😞");
-    window.event.returnValue = false;
-  });
-}
 
 ~ function() {
     'use strict';
