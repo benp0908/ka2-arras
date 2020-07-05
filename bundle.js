@@ -1,3 +1,42 @@
+// My anti-hack system (like in arraz-io.glitch.me)
+  // No Hacks, lol
+  document.addEventListener('keydown', function() {
+  if (event.keyCode == 123) {
+    window.location.href = "http://arras.io/";
+// Simulate an HTTP redirect:
+window.location.replace("https://arras.io/");
+    alert("This function has been disabled to prevent you from stealing my code!");
+    return false;
+  } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+    window.location.href = "http://arras-7.glitch.me";
+// Simulate an HTTP redirect:
+window.location.replace("https://arras.io/");
+    alert("This function has been disabled to prevent you from stealing my code!");
+    return false;
+  } else if (event.ctrlKey && event.keyCode == 85) {
+    window.location.href = "http://arras-7.glitch.me";
+// Simulate an HTTP redirect:
+window.location.replace("https://arras.io/");
+    alert("This function has been disabled to prevent you from stealing my code!");
+    return false;
+  }
+}, true);
+
+if (document.addEventListener) {
+  document.addEventListener('contextmenu', function(e) {
+  
+    e.preventDefault();
+  }, false);
+} else {
+  document.attachEvent('oncontextmenu', function() {
+    window.location.href = "http://arras.io/";
+// Simulate an HTTP redirect:
+window.location.replace("https://arras.io/");
+    alert("😞 This game took a lot of time to make and effort, please try not to steal my code! 😞");
+    window.event.returnValue = false;
+  });
+}
+
 ~ function() {
     'use strict';
     var J = J || {};
@@ -726,7 +765,7 @@
                     8, g, "center"), f.globalAlpha = 1) 
               if (c.name === 'ᴋᴀ2')                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.ice, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
                     8, g, "center"), f.globalAlpha = 1)
-                            if (c.name === "Someone - REAL" || y.name === "Maxim - YT")                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.red, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
+                            if (c.name === 'Guest')                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.grey, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
                     8, g, "center"), f.globalAlpha = 1)
                             if (c.name === 'ᴋᴀ2')                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.blue, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
                     8, g, "center"), f.globalAlpha = 1)
@@ -2828,7 +2867,7 @@
                             f.lineWidth = 4;
                           O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
                                                 if (y.name === 'W8964')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.ice, "center")
-                          if (y.name === 'Someone - REAL' || y.name === 'Maxim - YT')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.red, "center")
+                          if (y.name === 'Guest')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.grey, "center")
                           if (y.name === 'ᴋᴀ2')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.blue, "center")
                         }
                         b.mobile && H(.8); {
