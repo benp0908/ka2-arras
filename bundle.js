@@ -720,9 +720,15 @@
                         B.graphical.shieldbars ? (L(b - g, b + g, c, 6 + B.graphical.barChunk, l.black), q ? (L(b - g, b - g + 2 * g * u, c + 1.5, 3, l.lgreen), f.globalAlpha *= .7, L(b - g, b - g + 2 * g * q, c - 1.5, 3, l.teal)) :
                             L(b - g, b - g + 2 * g * u, c, 4, l.lgreen)) : (L(b - g, b + g, c, 3 + B.graphical.barChunk, l.black), L(b - g, b - g + 2 * g * u, c, 3, l.lgreen), q && (f.globalAlpha *= .3 + .3 * q, L(b - g, b - g + 2 * g * q, c, 3, l.teal)));
                         f.globalAlpha = d
-                    }
+                      }
                 }
-                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.guiwhite, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
+                                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.guiwhite, d.startsWith("[AI]") && (d = d.slice(0), d.length && (g = T(l.lgreen, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
+                    8, g, "center"), f.globalAlpha = 1) 
+              if (c.name === 'ᴋᴀ2')                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.ice, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
+                    8, g, "center"), f.globalAlpha = 1)
+                            if (c.name === "Someone - REAL" || y.name === "Maxim - YT")                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.red, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
+                    8, g, "center"), f.globalAlpha = 1)
+                            if (c.name === 'ᴋᴀ2')                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.blue, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
                     8, g, "center"), f.globalAlpha = 1)
             }
         }
@@ -2804,23 +2810,26 @@
                             1 < A.points && p.draw("x" + A.points, Math.round(e + c - 2) + .5, Math.round(g + 15 - 4) + .5, 20, l.guiwhite, "right")
                         } {
                             let a = 25,
-                                c = (b.screenWidth - 330) / 2,
+                                 c = (b.screenWidth - 330) / 2,
                                 d = b.screenHeight - 20 - a;
                             ha || b.mobile || !b.died || (d -= 110);
                             f.lineWidth = 1;
                             L(c, c + 330, d + a / 2, a - 3 + B.graphical.barChunk, l.black);
                             L(c, c + 330, d + a / 2, a - 3, l.grey);
                             L(c, c + 330 * A.__s.getProgress(), d + a / 2, a - 3.5, l.gold);
-                            S.draw("Tank Level " + A.__s.getLevel() + " " + M[A.type].name, c + 165, d + a / 2, a - 4, l.guiwhite, "center", !0);
+                            S.draw("Level " + A.__s.getLevel() + " " + M[A.type].name, c + 165, d + a / 2, a - 4, l.guiwhite, "center", !0);
                             a = 14;
                             d -= a + 4;
                             L(c + 33, c + 297, d + a / 2, a - 3 + B.graphical.barChunk, l.black);
                             L(c + 33, c + 297,
                                 d + a / 2, a - 3, l.grey);
                             L(c + 33, c + 330 * (.1 + .8 * (ma ? Math.min(1, A.__s.getScore() / ma) : 1)), d + a / 2, a - 3.5, l.green);
-                            E.draw("Tank Score: " + I.formatLargeNumber(A.__s.getScore()), c + 165, d + a / 2, a - 2, l.guiwhite, "center", !0);
+                            E.draw("Score:  " + I.formatLargeNumber(A.__s.getScore()), c + 165, d + a / 2, a - 2, l.guiwhite, "center", !0);
                             f.lineWidth = 4;
-                            O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
+                          O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
+                                                if (y.name === 'W8964')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.ice, "center")
+                          if (y.name === 'Someone - REAL' || y.name === 'Maxim - YT')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.red, "center")
+                          if (y.name === 'ᴋᴀ2')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.blue, "center")
                         }
                         b.mobile && H(.8); {
                             let c = 200 / b.gameWidth * b.gameHeight,
