@@ -75,7 +75,7 @@ h3 {
 }
 
 .serverSelector {
-  height: 85px;
+  height: 45px;
   text-align: center;
   font-size: 14px;
   font-weight: bold;
@@ -135,6 +135,9 @@ input {
 #playerNameInput {
   padding: 10px;
   font-size: larger;z
+}
+#playerKeyInput {
+  padding: 4px;
 }
 
 input:focus {
