@@ -2829,7 +2829,7 @@
                             E.draw("Score:  " + I.formatLargeNumber(A.__s.getScore()), c + 165, d + a / 2, a - 2, l.guiwhite, "center", !0);
                             f.lineWidth = 4;
                           O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
-                                                if (y.name === 'W8964')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.ice, "center")
+                                                if (y.name === '𝓟𝓻𝓸𝓽𝓮𝓬𝓽𝓸𝓻')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.ice, "center")
                           if (y.name === 'Guest')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.grey, "center")
                           if (y.name === 'ᴋᴀ2')O.draw(y.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.blue, "center")
                         }
