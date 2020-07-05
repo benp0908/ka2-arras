@@ -1,6 +1,8 @@
 # PATCH 07/5/2020 (1)
+- If you see someone that says KA2 in Blue or Protector in green, just remember that these people are Developers!
 
--The 4th of July TESTBED Event has Ended.
+- Added a feature where if you make your name Guest your name will turn grey to others as a symbol that your new!
+- The 4th of July TESTBED Event has Ended.
 
 # PATCH 07/4/2020 (1)
 - Hope Everyone Enjoys this New Update! This will Close tomorrow at 12:00 AM.

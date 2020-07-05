@@ -726,7 +726,7 @@
                 }
                                 c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.guiwhite, d.startsWith("[AI]") && (d = d.slice(0), d.length && (g = T(l.lgreen, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
                     8, g, "center"), f.globalAlpha = 1) 
-              if (c.name === 'ᴋᴀ2')                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.ice, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
+                            if (c.name === '𝓟𝓻𝓸𝓽𝓮𝓬𝓽𝓸𝓻')                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.lgreen, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
                     8, g, "center"), f.globalAlpha = 1)
                             if (c.name === 'Guest')                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [w(), w()]), d = c.name, g = l.grey, d.startsWith("\u200b\u200b") && (d = d.slice(2), d.length && (g = T(l.yellow, g, .125))), f.globalAlpha = t, c.render.textobjs[0].draw(d, b, a - h - 30, 16, g, "center"), c.render.textobjs[1].draw(I.handleLargeNumber(c.score, !0), b, a - h - 16,
                     8, g, "center"), f.globalAlpha = 1)
@@ -2112,7 +2112,7 @@
                 };
                 f.onerror = function(a) {
                     console.warn("WebSocket clobbing", a);
-                    b.message = "The Server may not be open to the Public or Released to the Public right now. Also Check, is the Server down?";
+                    b.message = "The connection was lost for some reason. Check if your Internet is on or if the server is down?";
                     b.isInGame = !1
                 };
                 return f
