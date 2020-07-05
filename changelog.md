@@ -20,11 +20,11 @@
 
 # PATCH 06/27/2020 (1)
 
-- (UPDATE 4 | Removed Vulcan because it was Broken, currently trying to fix the Vulcan.
+- Removed Vulcan because it was Broken, currently trying to fix the Vulcan.
 
 - Game kept disconnecting during lags, removed 12 and subtracted 1.
 
-- (UPDATE 2 | Protect the Base): Renamed Protect the Base to "Defender Mode."
+- Protect the Base): Renamed Protect the Base to "Defender Mode."
   -Renamed the Original Railgun to the Railgun Unlimate, because it constantly shoots!
 
 # PATCH 06/26/2020 (1)
