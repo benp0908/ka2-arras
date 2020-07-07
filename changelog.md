@@ -1,4 +1,10 @@
 # PATCH 07/5/2020 (1)
+
+- Removed the Developer Server.
+
+- Working on the new TESTBED Event Server!
+
+# PATCH 07/5/2020 (1)
 - If you see someone that says KA2 in Blue or Protector in green, just remember that these people are Developers!
 
 - Added a feature where if you make your name Guest your name will turn grey to others as a symbol that your new!
