@@ -1203,7 +1203,7 @@
                             u.remove && h.push(u.remove);
                             c.push(d);
                             break
-                        } if (0 === c.length) return "Developer Server";
+                        } if (0 === c.length) return "Unknown";
                 a = c[c.length - 1];
                 a.end && (a.to = a.end);
                 for (a = 0; a + 1 < c.length; a++) c[a].delay && !c[a + 1].delay && (t = c[a], c[a] = c[a + 1], c[a + 1] = t, a++);
@@ -2931,8 +2931,8 @@
                                     b.clickables.upgrade.place(q++, c * u, d * u, 100 * u, 100 * u);
                                     f.globalAlpha = .09; // Changes box background transparency (original - .5)
                                     f.fillStyle = e(t + 10);
-                                    G(c, d, 100, 100);
-                                    f.globalAlpha = .0; 
+                                    G(c, d, 100, 100); 
+                                    f.globalAlpha = .0;
                                     f.fillStyle = e(t);
                                     t++;
                                     G(c, d, 100, 60);
