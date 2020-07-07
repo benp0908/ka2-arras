@@ -2885,7 +2885,7 @@
                                 W[0].draw(m.toFixed(1) + " ms  " + b.server.code + " :" + b.server.type + ":", h + 200, q, 10, l.guiwhite, "right")
                             }
                         }
-                        b.mobile && H(1.25);
+                                    b.mobile && H(1.25);
                         b.mobile && H(1.4);
                         if (!B.graphical.screenshotMode) {
                             let c = b.screenWidth - 200 - 20,
@@ -2899,6 +2899,10 @@
                                 L(c, c + 200, d + 7, 11, l.grey);
                                 L(c, c + 200 * Math.min(1, b.score / ma), d + 7, 10.5, b.barColor);
                                 ca[a].draw(b.label + ": " + I.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.guiwhite, "center", !0);
+                                if (b.label.includes('W8964'))ca[a].draw(b.label + ": " + I.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.ice, "center", !0);
+                              if (b.label.includes('Someone - REAL') || b.label.includes('Maxim - YT'))ca[a].draw(b.label + ": " + I.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.red, "center", !0);
+                              if (b.label.includes('ᴋᴀ2'))ca[a].draw(b.label + ": " + I.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.blue, "center", !0);
+                              if (b.label.includes('[AI]'))ca[a].draw(b.label + ": " + I.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.lgreen, "center", !0);
                                 let e =
                                     14 / b.position.axis;
                                 ba(c - 21 - e * b.position.middle.x * .707, d + 7 + e * b.position.middle.x * .707, b.image, 1 / e, 1, e * e / b.image.size, -Math.PI / 4, !0);
@@ -3123,10 +3127,10 @@
                     e = w();
                 w();
                 var c = [ //You can change the tips lol
-                    ["Tip: You can view and edit your keybinds in the options menu.", "Tip: You can play on mobile by just going to Eclipsio.glitch.me on your phone!"],
-                    ["Tip: You can have the shield and health bar be separated by going to the options menu.", "Tip: If Eclipse is having a low frame rate, you can try enabling low graphics in the options menu.", "Tip: You can make traps rounded with the classic trap setting in the options menu."
+                    ["Tip: You can view and edit your keybinds in the options menu.", "Tip: You can play on mobile by just going to Ka2-arras.glitch.me on your phone!"],
+                    ["Tip: You can have the shield and health bar be separated by going to the options menu.", "Tip: If The game is having a low frame rate, you can try enabling low graphics in the options menu.", "Tip: You can make traps rounded with the classic trap setting in the options menu."
                     ],
-                    ["Teaming in FFA or FFA Maze is frowned upon, but when taken to the extremes, you can be punished.", "Witch hunting is when you continuously target someone and follow them. This is frowned upon, but when taken to the extremes, you can be punished.", "Multiboxing is when you use a script to control multiple tanks at the same time. This is considered CHEATING and will result in a ban."]
+                    ["Tell other people your new by putting Guest as your name.", "Witch hunting is when you continuously target someone and follow them. This is frowned upon, but when taken to the extremes, you can be punished.", "Multiboxing is when you use a script to control multiple tanks at the same time. This is considered CHEATING and will result in a ban."]
                 ];
                 c = c[Math.floor(Math.random() *
                     c.length)];
