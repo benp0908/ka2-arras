@@ -2924,33 +2924,34 @@
                                 ka += .01;
                                 let t = 0,
                                     q = 0;
+                                // WARNING!!! Do not disable any of these codes. This will cause a game crash. All these codes are needed!
                                 A.upgrades.forEach(n => {
                                     d > k && (k = d);
                                     h = c;
                                     b.clickables.upgrade.place(q++, c * u, d * u, 100 * u, 100 * u);
-                                    f.globalAlpha = .5;
+                                    f.globalAlpha = .09; // Changes box background transparency (original - .5)
                                     f.fillStyle = e(t + 10);
                                     G(c, d, 100, 100);
-                                    f.globalAlpha =
-                                        .1;
+                                    f.globalAlpha = .0; 
                                     f.fillStyle = e(t);
                                     t++;
                                     G(c, d, 100, 60);
-                                    f.fillStyle = l.black;
-                                        G(c, d + 60, 100, 40);
-                                    f.globalAlpha = 1;
+                                    f.fillStyle = l.black; // Changes bottom background color (original - black)
+                                    G(c, d + 60, 100, 40);
+                                    f.globalAlpha = 1; // Changes gun transparency (original - 1)
                                     let r = C(n, A.color);
                                     n = M[n].position;
-                                    let m = 60 / n.axis;
+                                    let m = 45 / n.axis;
                                     ba(c + 50 - m * n.middle.x * Math.cos(ka), d + 50 - m * n.middle.x * Math.sin(ka), r, 1, 1, m / r.size, ka, !0);
                                     n = (b.help[`KEY_CHOOSE_${v+1}`] || "").toLowerCase().trim();
                                     !b.mobile && n ? (aa[q - 1].draw(r.name, c + 45, d + 100 - 6, 9.5, l.guiwhite, "center"), ea[q - 1].draw("[" + n + "]", c + 100 - 4, d + 100 - 6, 9.5, l.guiwhite, "right")) : aa[q - 1].draw(r.name, c + 50, d + 100 - 6, 9.5, l.guiwhite, "center");
-                                    f.strokeStyle = l.black;
-                                    f.globalAlpha = 1;
-                                    f.lineWidth = 3;
+                                    f.strokeStyle = l.blue; // Line color (original - black)
+                                    f.globalAlpha = 0.5; // Changes line transparency (original - 1)
+                                    f.lineWidth = 6; // Changes line width (less - thick line, more - thin line) (original - 3)
                                     G(c, d, 100, 100, !0);
-                                    0 !== ++v % 5 || b.mobile ? c += 114 * a : (c = g, d += 114)
+                                    0 !== ++v % 8 || b.mobile ? c += 114 * a : (c = g, d += 114)
                                 });
+                              
                                 let n = ra("Ignore Upgrades", 11) + 10,
                                     r = (h + 100 + 14 + g - 15) / 2,
                                     m = k + 100 + 14;
