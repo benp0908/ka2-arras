@@ -3421,7 +3421,7 @@
                     }, {
                         id: "t",
                         to: "2TDM",
-                        end: "Experinmental Mode"
+                        end: "D-Day 2.0: Experimental"
                     }]
                 ]
             ],
@@ -3480,7 +3480,7 @@
                     id: "c",
                     type: "2DTM",
                     code: "dream_team-1-t",
-                    at: m.glitch("testexperinmental"),
+                    at: m.glitch("ddayexperimental"),
                     untrusted: !0,
                     secure: -1,
                     prefer: !0,
