@@ -1,7 +1,14 @@
+# PATCH 07/9/2020 (1)
+
+- If you would like to <a href="">contribute in to the project</a>, wouled be appreciated! You will also get free access to new upcoming updates and servers.
+
+- Added an Experimental Server called D-Day 2.0, this Server is for test purposes only for upcomming servers. 
+
+
 # PATCH 07/7/2020 (1)
 
 
--Added back the Developer Server
+- Added back the Developer Server.
 
 # PATCH 07/6/2020 (1)
 
