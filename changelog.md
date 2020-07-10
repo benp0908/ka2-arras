@@ -1,3 +1,5 @@
+Please note that new updates will not apply to a server until it restarts.
+
 # PATCH 07/9/2020 (1)
 
 - If you would like to <a href="">contribute in to the project</a>, wouled be appreciated! You will also get free access to new upcoming updates and servers.
